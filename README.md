@@ -2,28 +2,28 @@
 Source files &amp; deployment scripts for the PaxPlus-Launcher game patches
 
 ##   Setup
-### 📋 Clone Repo & Install dependencies
+### Clone Repo & Install dependencies
 ```
 git clone https://github.com/iNFiNiTY6441/PaxPlus-Launcher-Patches.git
 cd PaxPlus-Launcher-Patches
 npm install
 ```
 
-### 🔧 Place UPK utility EXEs in `./utils` folder:
+### Place UPK utility EXEs in `./utils` folder:
 
 `decompress.exe` **Latest Version**
->From **Gildor's** `Unreal Package Decompressor`  
+>From **Gildor's** ```Unreal Package Decompressor```  
 https://www.gildor.org/downloads 
 
 
-`patchUPK.exe` ❗❗❗ **Custom modified build by the PaxPlus team**
->Originally from **wghost's** `UPKUtils`  
+`patchUPK.exe` ❗ **Custom modified build by the PaxPlus team**
+>Originally from **wghost's** ```UPKUtils```   
 https://github.com/wghost/UPKUtils
 
 ##   Usage
 
 ### 📜 Customize `buildConfig.json`:
-```json
+``` js
 ./src/buildConfig.json
 {
     // Game install to test the patches on:
@@ -43,12 +43,12 @@ https://github.com/wghost/UPKUtils
 }
 ```
 
-### 🚀 Run build script
+### Run build script
 ```
 node build
 ```
 
-## 📦 `BUILD OUTPUT`
+## ```OUTPUT``` 
 
 ### The finished & deployable patch JSON will be written to:
 ```
