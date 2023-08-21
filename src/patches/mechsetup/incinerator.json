@@ -1,0 +1,55 @@
+{
+    "Incinerator": {
+
+        "initial": {
+
+            "MechType":"2",
+            "MechSubType":"10",
+            "PrimaryWeapon0":"0",
+            "PrimaryWeapon1":"8",
+            "OffensiveItem":"0",
+            "DefensiveItem":"0",
+            "FunctionalItem":"1",
+            "OffensiveAttachment":"1001",
+            "DefensiveAttachment":"1000",
+            "FunctionalAttachment":"1000"
+        },
+
+        "persist": {
+
+            "o_increaseWeaponsDamage":"0",
+            "o_primaryWeaponFireRate":"0",
+            "o_shootingRadarSignatureDistance":"0",
+            "o_itemDamage":"0",
+            "o_weaponHeatReduction":"0",
+            "o_specialWeaponFireRate":"0",
+            "o_damageReductionItems":"0",
+            "o_overheatRecoveryTime":"9",
+            "o_increaseTraceDamage":"0",
+            "o_increaseExplosionDamage":"0",
+            "o_increaseAllDamage":"0",
+            "d_healStartupTime":"0",
+            "d_dodgeSpeed":"0",
+            "d_damageReductionWeapons":"0",
+            "d_repairRate":"0",
+            "d_radarDistance":"-39",
+            "d_health":"2",
+            "d_weaponHeatReduction":"-450",
+            "d_runSpeed":"0",
+            "d_traceDamageReduction":"0",
+            "d_explosionDamageReduction":"0",
+            "d_decreaseAllDamage":"0",
+            "m_runSpeed":"0",
+            "m_accelerationRate":"0",
+            "m_energyCapacity":"0",
+            "m_thrusterRegenRate":"15",
+            "m_boostForwardSpeed":"56",
+            "m_maxThrusterEnergy":"-16",
+            "m_reduceDodgeCooldown":"0",
+            "m_health":"0",
+            "m_radarSignatureDistance":"0",
+            "m_radarDistance":"0",
+            "m_increaseMovement":"0"
+        }
+    }
+}

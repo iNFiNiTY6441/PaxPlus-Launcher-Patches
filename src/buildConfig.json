@@ -1,0 +1,15 @@
+{
+
+    "game": {
+
+        "installDir": "<PATH TO Hawken-PC-Shipping>",
+        "iniDir": "<PATH TO HAWKEN INI FOLDER IN MY DOCUMENTS>"
+    },
+
+    "package": {
+
+        "version": "0.0.0.0",
+        "name": "Patch Package Name"
+    }
+
+}

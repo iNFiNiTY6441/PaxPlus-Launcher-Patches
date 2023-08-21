@@ -1,0 +1,14 @@
+# VS Code
+.vs/
+.vscode/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+#Util EXEs
+utils/*
+!utils/UTIL_EXES_GO_HERE
+
+#build results
+src/out/*

@@ -1,0 +1,55 @@
+{
+    "Marauder": {
+
+        "initial": {
+
+            "MechType":"2",
+            "MechSubType":"2",
+            "PrimaryWeapon0":"1",
+            "PrimaryWeapon1":"1",
+            "OffensiveItem":"0",
+            "DefensiveItem":"0",
+            "FunctionalItem":"1",
+            "OffensiveAttachment":"1001",
+            "DefensiveAttachment":"1000",
+            "FunctionalAttachment":"1000"
+        },
+
+        "persist": {
+
+            "o_increaseWeaponsDamage":"0",
+            "o_primaryWeaponFireRate":"0",
+            "o_shootingRadarSignatureDistance":"0",
+            "o_itemDamage":"0",
+            "o_weaponHeatReduction":"0",
+            "o_specialWeaponFireRate":"-30",
+            "o_damageReductionItems":"0",
+            "o_overheatRecoveryTime":"8",
+            "o_increaseTraceDamage":"0",
+            "o_increaseExplosionDamage":"34",
+            "o_increaseAllDamage":"0",
+            "d_healStartupTime":"0",
+            "d_dodgeSpeed":"0",
+            "d_damageReductionWeapons":"0",
+            "d_repairRate":"0",
+            "d_radarDistance":"-30",
+            "d_health":"-1",
+            "d_weaponHeatReduction":"0",
+            "d_runSpeed":"0",
+            "d_traceDamageReduction":"0",
+            "d_explosionDamageReduction":"0",
+            "d_decreaseAllDamage":"0",
+            "m_runSpeed":"0",
+            "m_accelerationRate":"0",
+            "m_energyCapacity":"0",
+            "m_thrusterRegenRate":"-26",
+            "m_boostForwardSpeed":"-11",
+            "m_maxThrusterEnergy":"30",
+            "m_reduceDodgeCooldown":"0",
+            "m_health":"0",
+            "m_radarSignatureDistance":"0",
+            "m_radarDistance":"0",
+            "m_increaseMovement":"49"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+
+    "IpDrv.TcpNetDriver": {
+
+        "MaxClientRate": "30000",
+        "MaxInternetClientRate": "20000",
+
+        "NetServerMaxTickRate": "60",
+        "LanServerMaxTickRate": "64"
+    }
+}
