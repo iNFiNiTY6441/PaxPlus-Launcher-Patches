@@ -1,19 +1,19 @@
 {
     "Incinerator": {
 
-        "initial": {
+      "initial": {
 
-            "MechType":"2",
-            "MechSubType":"10",
-            "PrimaryWeapon0":"0",
-            "PrimaryWeapon1":"8",
-            "OffensiveItem":"0",
-            "DefensiveItem":"0",
-            "FunctionalItem":"1",
-            "OffensiveAttachment":"1001",
-            "DefensiveAttachment":"1000",
-            "FunctionalAttachment":"1000"
-        },
+        "MechType": "2",
+        "MechSubType": "10",
+        "PrimaryWeapon0": "0",
+        "PrimaryWeapon1": "8",
+        "OffensiveItem": "3",
+        "DefensiveItem": "-1",
+        "FunctionalItem": "-1",
+        "OffensiveAttachment": "-1",
+        "DefensiveAttachment": "-1",
+        "FunctionalAttachment": "-1"
+      },
 
         "persist": {
 
@@ -39,17 +39,17 @@
             "d_traceDamageReduction":"0",
             "d_explosionDamageReduction":"0",
             "d_decreaseAllDamage":"0",
-            "m_runSpeed":"0",
+            "m_runSpeed":"5",
             "m_accelerationRate":"0",
             "m_energyCapacity":"0",
-            "m_thrusterRegenRate":"15",
+            "m_thrusterRegenRate":"-15",
             "m_boostForwardSpeed":"56",
             "m_maxThrusterEnergy":"-16",
             "m_reduceDodgeCooldown":"0",
             "m_health":"0",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"0"
+            "m_increaseMovement":"473"
         }
     }
 }

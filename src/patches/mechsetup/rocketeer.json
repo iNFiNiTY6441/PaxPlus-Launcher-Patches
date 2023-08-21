@@ -1,19 +1,19 @@
 {
     "Rocketeer": {
 
-        "initial": {
+      "initial": {
 
-            "MechType":"2",
-            "MechSubType":"5",
-            "PrimaryWeapon0":"9",
-            "PrimaryWeapon1":"2",
-            "OffensiveItem":"4",
-            "DefensiveItem":"0",
-            "FunctionalItem":"3",
-            "OffensiveAttachment":"1001",
-            "DefensiveAttachment":"1000",
-            "FunctionalAttachment":"1000"
-        },
+        "MechType": "2",
+        "MechSubType": "11",
+        "PrimaryWeapon0": "9",
+        "PrimaryWeapon1": "4",
+        "OffensiveItem": "5",
+        "DefensiveItem": "-1",
+        "FunctionalItem": "-1",
+        "OffensiveAttachment": "-1",
+        "DefensiveAttachment": "-1",
+        "FunctionalAttachment": "-1"
+      },
 
         "persist": {
 
@@ -39,7 +39,7 @@
             "d_traceDamageReduction":"0",
             "d_explosionDamageReduction":"0",
             "d_decreaseAllDamage":"0",
-            "m_runSpeed":"0",
+            "m_runSpeed":"2",
             "m_accelerationRate":"0",
             "m_energyCapacity":"0",
             "m_thrusterRegenRate":"-4",
