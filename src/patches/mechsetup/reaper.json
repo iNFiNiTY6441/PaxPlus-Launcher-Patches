@@ -1,27 +1,27 @@
 {
     "Reaper": {
 
-        "initial": {
+      "initial": {
 
-            "MechType":"0",
-            "MechSubType":"8",
-            "PrimaryWeapon0":"3",
-            "PrimaryWeapon1":"5",
-            "OffensiveItem":"4",
-            "DefensiveItem":"2",
-            "FunctionalItem":"1",
-            "OffensiveAttachment":"1004",
-            "DefensiveAttachment":"1000",
-            "FunctionalAttachment":"1000"
-        },
+        "MechType": "0",
+        "MechSubType": "8",
+        "PrimaryWeapon0": "3",
+        "PrimaryWeapon1": "5",
+        "OffensiveItem": "1",
+        "DefensiveItem": "-1",
+        "FunctionalItem": "-1",
+        "OffensiveAttachment": "-1",
+        "DefensiveAttachment": "-1",
+        "FunctionalAttachment": "-1"
+      },
 
         "persist": {
 
-            "o_increaseWeaponsDamage":"-29",
+            "o_increaseWeaponsDamage":"-37",
             "o_primaryWeaponFireRate":"40",
             "o_shootingRadarSignatureDistance":"0",
             "o_itemDamage":"0",
-            "o_weaponHeatReduction":"29",
+            "o_weaponHeatReduction":"28",
             "o_specialWeaponFireRate":"23",
             "o_damageReductionItems":"0",
             "o_overheatRecoveryTime":"8",
@@ -49,7 +49,7 @@
             "m_health":"0",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"-35"
+            "m_increaseMovement":"-26"
         }
     }
 }

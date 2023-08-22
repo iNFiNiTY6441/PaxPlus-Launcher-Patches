@@ -4,15 +4,15 @@
         "initial": {
 
             "MechType":"1",
-            "MechSubType":"0",
-            "PrimaryWeapon0":"6",
+            "MechSubType":"7",
+            "PrimaryWeapon0":"8",
             "PrimaryWeapon1":"0",
-            "OffensiveItem":"1",
-            "DefensiveItem":"0",
-            "FunctionalItem":"1",
-            "OffensiveAttachment":"1000",
+            "OffensiveItem":"0",
+            "DefensiveItem":"-1",
+            "FunctionalItem":"-1",
+            "OffensiveAttachment":"-1",
             "DefensiveAttachment":"-1",
-            "FunctionalAttachment":"1000"
+            "FunctionalAttachment":"-1"
         },
 
         "persist": {

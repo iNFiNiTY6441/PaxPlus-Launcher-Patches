@@ -2,19 +2,19 @@
 
     "Bruiser":{
 
-        "initial": {
+      "initial": {
 
-            "MechType":"1",
-            "MechSubType":"5",
-            "PrimaryWeapon0":"0",
-            "PrimaryWeapon1":"6",
-            "OffensiveItem":"1",
-            "DefensiveItem":"0",
-            "FunctionalItem":"1",
-            "OffensiveAttachment":"1000",
-            "DefensiveAttachment":"1000",
-            "FunctionalAttachment":"1000"
-        },
+        "MechType": "1",
+        "MechSubType": "5",
+        "PrimaryWeapon0": "0",
+        "PrimaryWeapon1": "8",
+        "OffensiveItem": "4",
+        "DefensiveItem": "-1",
+        "FunctionalItem": "-1",
+        "OffensiveAttachment": "-1",
+        "DefensiveAttachment": "-1",
+        "FunctionalAttachment": "-1"
+      },
 
         "persist": {
 

@@ -1,31 +1,31 @@
 {
     "Raider": {
 
-        "initial": {
+      "initial": {
 
-            "MechType":"1",
-            "MechSubType":"2",
-            "PrimaryWeapon0":"1",
-            "PrimaryWeapon1":"4",
-            "OffensiveItem":"0",
-            "DefensiveItem":"0",
-            "FunctionalItem":"1",
-            "OffensiveAttachment":"1004",
-            "DefensiveAttachment":"1003",
-            "FunctionalAttachment":"1000"
-        },
+        "MechType": "1",
+        "MechSubType": "2",
+        "PrimaryWeapon0": "1",
+        "PrimaryWeapon1": "4",
+        "OffensiveItem": "-1",
+        "DefensiveItem": "-1",
+        "FunctionalItem": "1",
+        "OffensiveAttachment": "-1",
+        "DefensiveAttachment": "-1",
+        "FunctionalAttachment": "-1"
+      },
 
         "persist": {
 
             "o_increaseWeaponsDamage":"0",
-            "o_primaryWeaponFireRate":"0",
+            "o_primaryWeaponFireRate":"32",
             "o_shootingRadarSignatureDistance":"0",
             "o_itemDamage":"0",
-            "o_weaponHeatReduction":"0",
+            "o_weaponHeatReduction":"35",
             "o_specialWeaponFireRate":"-10",
             "o_damageReductionItems":"0",
             "o_overheatRecoveryTime":"4",
-            "o_increaseTraceDamage":"0",
+            "o_increaseTraceDamage":"-30",
             "o_increaseExplosionDamage":"15",
             "o_increaseAllDamage":"0",
             "d_healStartupTime":"0",
@@ -49,7 +49,7 @@
             "m_health":"3",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"21"
+            "m_increaseMovement":"-16"
         }
     }
 }

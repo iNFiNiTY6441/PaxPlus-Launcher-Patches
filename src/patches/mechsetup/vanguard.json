@@ -1,19 +1,19 @@
 {
     "Vanguard": {
 
-        "initial": {
+      "initial": {
 
-            "MechType":"2",
-            "MechSubType":"6",
-            "PrimaryWeapon0":"8",
-            "PrimaryWeapon1":"7",
-            "OffensiveItem":"4",
-            "DefensiveItem":"0",
-            "FunctionalItem":"1",
-            "OffensiveAttachment":"1000",
-            "DefensiveAttachment":"1000",
-            "FunctionalAttachment":"1000"
-        },
+        "MechType": "2",
+        "MechSubType": "13",
+        "PrimaryWeapon0": "8",
+        "PrimaryWeapon1": "7",
+        "OffensiveItem": "1",
+        "DefensiveItem": "-1",
+        "FunctionalItem": "-1",
+        "OffensiveAttachment": "-1",
+        "DefensiveAttachment": "-1",
+        "FunctionalAttachment": "-1"
+      },
 
         "persist": {
 
@@ -49,7 +49,7 @@
             "m_health":"-3",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"172"
+            "m_increaseMovement":"-172"
         }
     }
 }
