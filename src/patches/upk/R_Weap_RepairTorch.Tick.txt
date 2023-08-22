@@ -9,7 +9,7 @@ OBJECT = R_Weap_RepairTorch.Tick : AUTO
 EXPAND_FUNCTION
 [REPLACEMENT_CODE]
 /*(0x0000/0x0000)*/ 1B <UpdateBeamEffects> 00 <.DeltaTime> 16 
-/*(0x0013/0x000F)*/ 1C <R_Weap_Base.Tick> 00 <.DeltaTime> 16  
+/*(0x0013/0x000F)*/ 1C <Engine.Actor.Tick> 00 <.DeltaTime> 16  
 			07 [@label_0x0013] 97 01 <@NumTouchingPawns> 25 16
 /*(0x000A/0x000A)*/ 1B <PlayFiringSound> 16
 /*(0x0045/0x0035)*/	1B <PlayFireAnimation> 4A 16 

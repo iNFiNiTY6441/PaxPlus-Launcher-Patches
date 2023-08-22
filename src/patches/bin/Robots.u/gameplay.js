@@ -82,11 +82,7 @@ const replacements = [
     }, //Bubblgum Prime to Amethyst Prime
 
     //Weapons  
-    { offset: 0x00682640, from: [0x00, 0x3F], to: [0x80, 0x3F] }, //Change SAARE projectile gravity to 1
-    { offset: 0x006BAE35,
-        from: [0x1C, 0x29, 0x25, 0x00, 0x00, 0x00, 0x71, 0x33, 0x00, 0x00, 0x16],
-        to: [0x1C, 0x03, 0xFC, 0xFF, 0xFF, 0x00, 0x3B, 0x00, 0x00, 0x00, 0x16]
-    }, //Change Repair Torch from super.Tick(DeltaTime); to super(Actor).Tick(DeltaTime); Hopefully allows mode switching to work correctly.
+    { offset: 0x00682640, from: [0x00, 0x3F], to: [0x80, 0x3F] }, //Change SAARE projectile gravity to 1    
     { offset: 0x006BB870, from: [0xC8], to: [0x4A] }, //Replace Repair Torch fire sounds with Energy Drain sounds
     { offset: 0x006BB904, from: [0xBE], to: [0xC0] }, //Replace Repair Torch 3rd Person fire animations with SMC animations
     { offset: 0x006BB920, from: [0xBD], to: [0xBF] }, //Replace Repair Torch 1st Person fire animations with SMC animations
