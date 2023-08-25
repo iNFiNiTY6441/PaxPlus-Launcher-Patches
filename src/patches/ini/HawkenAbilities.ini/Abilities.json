@@ -1,0 +1,66 @@
+{
+	"Robots.R_Ability_Base":
+	{
+		"ModeActiveTime": "0.0",
+		"RegenerationSeconds": "0.0"
+	},
+	"Robots.R_Ability_AttackBoost":
+	{
+		"ModeActiveTime": "6.5",
+		"RegenerationSeconds": "52.0",
+		"AddDamageMultiplier": "0.15"
+	},
+	"Robots.R_Ability_Barrier":
+	{
+		"ModeActiveTime": "1.25",
+		"RegenerationSeconds": "16",
+		"DamageMultiplierReduction": "-0.65"
+	},
+	"Robots.R_Ability_Cammo":
+	{
+		"ModeActiveTime": "8",
+		"RegenerationSeconds": "40.0"
+	},
+	"Robots.R_Ability_Coolant":
+	{
+		"ModeActiveTime": "1.0",
+		"RegenerationSeconds": "35.0"
+	},
+	"Robots.R_Ability_FuelReplenish":
+	{
+		"ModeActiveTime": "1.0",
+		"RegenerationSeconds": "52.0",
+		"FuelAmount": "5.775"
+	},
+	"Robots.R_Ability_HeavyMobile":
+	{
+		"RegenerationSeconds": "5.0",
+		"AlternateHeavyModeSpeed": "765",
+		"RadiusDamageReductionMultiplier": "0.4",
+		"OtherDamageReductionMultiplier": "0.4"
+	},
+	"Robots.R_Ability_HeavyMode":
+	{
+		"RegenerationSeconds": "7.0",
+		"AddToDamageMultiplier": "0.0",
+		"RadiusDamageReductionMultiplier": "0.0",
+		"OtherDamageReductionMultiplier": "0.0"
+	},
+	"Robots.R_Ability_HeavyRegen":
+	{
+		"RegenerationSeconds": "5.0",
+		"HealthPerSecond": "15",
+		"RadiusDamageReductionMultiplier": "0.9",
+		"OtherDamageReductionMultiplier": "0.9"
+	},
+	"Robots.R_Ability_MovementIncrease":
+	{
+		"ModeActiveTime": "8.0",
+		"RegenerationSeconds": "55.0",
+		"WalkSpeedIncrease": "0",
+		"RunSpeedIncrease": "620.0",
+		"WalkTimeDecrease": "0",
+		"WalkToRunTimeDecrease": "0",
+		"BoostSpeedIncrease": "740"
+	}
+}
