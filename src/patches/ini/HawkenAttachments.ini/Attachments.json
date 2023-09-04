@@ -1,164 +1,163 @@
 {
-  "Robots": {
-    "R_Attachment_D_Armor": {
-      "Value[0]": "-0.02"
-    },
-    "R_Attachment_D_HeatResistantArmor": {
-      "Value[0]": "-0.03"
-    },
-    "R_Attachment_D_PlatedArmor": {
-      "Value[0]": "-0.03"
-    },
-    "R_Attachment_D_ReinforcedArmor": {
-      "Value[0]": "15"
-    },
-    "R_Attachment_D_RepairKit": {
-      "Value[0]": "7"
-    },
-    "R_Attachment_DA_Armor": {
-      "Value[0]": "-0.04"
-    },
-    "R_Attachment_DA_HeatResistantArmor": {
-      "Value[0]": "-0.06"
-    },
-    "R_Attachment_DA_PlatedArmor": {
-      "Value[0]": "-0.06"
-    },
-    "R_Attachment_DA_ReinforcedArmor": {
-      "Value[0]": "25"
-    },
-    "R_Attachment_DA_RepairKit": {
-      "Value[0]": "15"
-    },
-    "R_Attachment_F_EUCanisters": {
-      "Value[0]": "35"
-    },
-    "R_Attachment_F_FuelCanisters": {
-      "Value[0]": "0.5"
-    },
-    "R_Attachment_F_FuelGenerator": {
-      "Value[0]": "0.8"
-    },
-    "R_Attachment_F_Radars": {
-      "Value[0]": "500.0"
-    },
-    "R_Attachment_F_Thrusters": {
-      "Value[0]": "55"
-    },
-    "R_Attachment_FA_EUCanisters": {
-      "Value[0]": "100"
-    },
-    "R_Attachment_FA_FuelCanisters": {
-      "Value[0]": "1"
-    },
-    "R_Attachment_FA_FuelGenerator": {
-      "Value[0]": "0.15"
-    },
-    "R_Attachment_FA_Radars": {
-      "Value[0]": "1000.0"
-    },
-    "R_Attachment_FA_Thrusters": {
-      "Value[0]": "110.0"
-    },
-    "R_Attachment_O_ArmorPiercingMunitions": {
-      "Value[0]": "0.025"
-    },
-    "R_Attachment_O_CoolingUnits": {
-      "Value[0]": "-0.5"
-    },
-    "R_Attachment_O_ExplosiveMunitions": {
-      "Value[0]": "0.025"
-    },
-    "R_Attachment_O_Heatsinks": {
-      "Value[0]": "-0.05"
-    },
-    "R_Attachment_O_PrimaryWeaponLoader": {
-      "Value[0]": "0.04"
-    },
-    "R_Attachment_O_SpecialWeaponLoader": {
-      "Value[0]": "0.12"
-    },
-    "R_Attachment_O_Weapons": {
-      "Value[0]": "0.015"
-    },
-    "R_Attachment_OA_ArmorPiercingMunitions": {
-      "Value[0]": "0.05"
-    },
-    "R_Attachment_OA_CoolingUnits": {
-      "Value[0]": "-1"
-    },
-    "R_Attachment_OA_ExplosiveMunitions": {
-      "Value[0]": "0.05"
-    },
-    "R_Attachment_OA_Heatsinks": {
-      "Value[0]": "-0.1"
-    },
-    "R_Attachment_OA_PrimaryWeaponLoader": {
-      "Value[0]": "0.08"
-    },
-    "R_Attachment_OA_SpecialWeaponLoader": {
-      "Value[0]": "0.25"
-    },
-    "R_Attachment_OA_Weapons": {
-      "Value[0]": "0.03"
-    },
-    "R_Attachment_S_Armor": {
-      "Value[0]": "-0.04"
-    },
-    "R_Attachment_S_ArmorPlating": {
-      "Value[0]": "100",
-      "Value[1]": "-0.03"
-    },
-    "R_Attachment_S_ArmorSystems": {
-      "Value[0]": "25",
-      "Value[1]": "-0.02"
-    },
-    "R_Attachment_S_ArtilleryFocus": {
-      "Value[0]": "0.06",
-      "Value[1]": "-50"
-    },
-    "R_Attachment_S_ArtilleryPower": {
-      "Value[0]": "0.06",
-      "Value[1]": "0.1"
-    },
-    "R_Attachment_S_FuelGenerator": {
-      "Value[0]": "0.3"
-    },
-    "R_Attachment_S_FuelSystems": {
-      "Value[0]": "1.0",
-      "Value[1]": "0.15"
-    },
-    "R_Attachment_S_Heatsinks": {
-      "Value[0]": "0"
-    },
-    "R_Attachment_S_HeavyArmor": {
-      "Value[0]": "0",
-      "Value[1]": "0"
-    },
-    "R_Attachment_S_HeavyArtillery": {
-      "Value[0]": "0.06",
-      "Value[1]": "-110.0"
-    },
-    "R_Attachment_S_PropulsionFocus": {
-      "Value[0]": "220",
-      "Value[1]": "-50"
-    },
-    "R_Attachment_S_PropulsionThrusters": {
-      "Value[0]": "220  +220 boost speed",
-      "Value[1]": "-0.03  -3% damage"
-    },
-    "R_Attachment_S_ReinforcedArmor": {
-      "Value[0]": "50"
-    },
-    "R_Attachment_S_Thrusters": {
-      "Value[0]": "110"
-    },
-    "R_Attachment_S_Weapons": {
-      "Value[0]": "0.03  +3%"
-    },
-    "R_Attachment_S_WeaponSystems": {
-      "Value[0]": "0.015",
-      "Value[1]": "-0.05"
-    }
+  "Robots.R_Attachment_D_Armor": {
+    "Value[0]": "-0.02"
+  },
+  "Robots.R_Attachment_D_HeatResistantArmor": {
+    "Value[0]": "-0.03"
+  },
+  "Robots.R_Attachment_D_PlatedArmor": {
+    "Value[0]": "-0.03"
+  },
+  "Robots.R_Attachment_D_ReinforcedArmor": {
+    "Value[0]": "15"
+  },
+  "Robots.R_Attachment_D_RepairKit": {
+    "Value[0]": "7"
+  },
+  "Robots.R_Attachment_DA_Armor": {
+    "Value[0]": "-0.04"
+  },
+  "Robots.R_Attachment_DA_HeatResistantArmor": {
+    "Value[0]": "-0.06"
+  },
+  "Robots.R_Attachment_DA_PlatedArmor": {
+    "Value[0]": "-0.06"
+  },
+  "Robots.R_Attachment_DA_ReinforcedArmor": {
+    "Value[0]": "25"
+  },
+  "Robots.R_Attachment_DA_RepairKit": {
+    "Value[0]": "15"
+  },
+  "Robots.R_Attachment_F_EUCanisters": {
+    "Value[0]": "35"
+  },
+  "Robots.R_Attachment_F_FuelCanisters": {
+    "Value[0]": "0.5"
+  },
+  "Robots.R_Attachment_F_FuelGenerator": {
+    "Value[0]": "0.8"
+  },
+  "Robots.R_Attachment_F_Radars": {
+    "Value[0]": "500.0"
+  },
+  "Robots.R_Attachment_F_Thrusters": {
+    "Value[0]": "55"
+  },
+  "Robots.R_Attachment_FA_EUCanisters": {
+    "Value[0]": "100"
+  },
+  "Robots.R_Attachment_FA_FuelCanisters": {
+    "Value[0]": "1"
+  },
+  "Robots.R_Attachment_FA_FuelGenerator": {
+    "Value[0]": "0.15"
+  },
+  "Robots.R_Attachment_FA_Radars": {
+    "Value[0]": "1000.0"
+  },
+  "Robots.R_Attachment_FA_Thrusters": {
+    "Value[0]": "110.0"
+  },
+  "Robots.R_Attachment_O_ArmorPiercingMunitions": {
+    "Value[0]": "0.025"
+  },
+  "Robots.R_Attachment_O_CoolingUnits": {
+    "Value[0]": "-0.5"
+  },
+  "Robots.R_Attachment_O_ExplosiveMunitions": {
+    "Value[0]": "0.025"
+  },
+  "Robots.R_Attachment_O_Heatsinks": {
+    "Value[0]": "-0.05"
+  },
+  "Robots.R_Attachment_O_PrimaryWeaponLoader": {
+    "Value[0]": "0.04"
+  },
+  "Robots.R_Attachment_O_SpecialWeaponLoader": {
+    "Value[0]": "0.12"
+  },
+  "Robots.R_Attachment_O_Weapons": {
+    "Value[0]": "0.015"
+  },
+  "Robots.R_Attachment_OA_ArmorPiercingMunitions": {
+    "Value[0]": "0.05"
+  },
+  "Robots.R_Attachment_OA_CoolingUnits": {
+    "Value[0]": "-1"
+  },
+  "Robots.R_Attachment_OA_ExplosiveMunitions": {
+    "Value[0]": "0.05"
+  },
+  "Robots.R_Attachment_OA_Heatsinks": {
+    "Value[0]": "-0.1"
+  },
+  "Robots.R_Attachment_OA_PrimaryWeaponLoader": {
+    "Value[0]": "0.08"
+  },
+  "Robots.R_Attachment_OA_SpecialWeaponLoader": {
+    "Value[0]": "0.25"
+  },
+  "Robots.R_Attachment_OA_Weapons": {
+    "Value[0]": "0.03"
+  },
+  "Robots.R_Attachment_S_Armor": {
+    "Value[0]": "-0.04"
+  },
+  "Robots.R_Attachment_S_ArmorPlating": {
+    "Value[0]": "100",
+    "Value[1]": "-0.03"
+  },
+  "Robots.R_Attachment_S_ArmorSystems": {
+    "Value[0]": "25",
+    "Value[1]": "-0.02"
+  },
+  "Robots.R_Attachment_S_ArtilleryFocus": {
+    "Value[0]": "0.06",
+    "Value[1]": "-50"
+  },
+  "Robots.R_Attachment_S_ArtilleryPower": {
+    "Value[0]": "0.06",
+    "Value[1]": "0.1"
+  },
+  "Robots.R_Attachment_S_FuelGenerator": {
+    "Value[0]": "0.3"
+  },
+  "Robots.R_Attachment_S_FuelSystems": {
+    "Value[0]": "1.0",
+    "Value[1]": "0.15"
+  },
+  "Robots.R_Attachment_S_Heatsinks": {
+    "Value[0]": "0"
+  },
+  "Robots.R_Attachment_S_HeavyArmor": {
+    "Value[0]": "0",
+    "Value[1]": "0"
+  },
+  "Robots.R_Attachment_S_HeavyArtillery": {
+    "Value[0]": "0.06",
+    "Value[1]": "-110.0"
+  },
+  "Robots.R_Attachment_S_PropulsionFocus": {
+    "Value[0]": "220",
+    "Value[1]": "-50"
+  },
+  "Robots.R_Attachment_S_PropulsionThrusters": {
+    "Value[0]": "220",
+    "Value[1]": "-0.03"
+  },
+  "Robots.R_Attachment_S_ReinforcedArmor": {
+    "Value[0]": "50"
+  },
+  "Robots.R_Attachment_S_Thrusters": {
+    "Value[0]": "110"
+  },
+  "Robots.R_Attachment_S_Weapons": {
+    "Value[0]": "0.03  +3%"
+  },
+  "Robots.R_Attachment_S_WeaponSystems": {
+    "Value[0]": "0.015",
+    "Value[1]": "-0.05"
   }
+
 }
