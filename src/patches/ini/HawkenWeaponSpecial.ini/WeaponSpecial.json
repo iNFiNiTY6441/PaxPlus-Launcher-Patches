@@ -102,7 +102,7 @@
     "AccuracyForUI": "55",
     "RefireRateDefault": "+1.33",
     "SpreadDefault": "0.15",
-    "HeatPerShot": "-3.3",
+    "HeatPerShot": "-4.3",
     "WeapAimHelpDist": "500",
     "NumProjPerShot": "10",
     "ZoomedTargetFOV": "55",

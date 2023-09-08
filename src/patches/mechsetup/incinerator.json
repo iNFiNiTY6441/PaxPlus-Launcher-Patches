@@ -42,7 +42,7 @@
             "o_primaryWeaponFireRate":"0",
             "o_shootingRadarSignatureDistance":"0",
             "o_itemDamage":"0",
-            "o_weaponHeatReduction":"0",
+            "o_weaponHeatReduction":"-598",
             "o_specialWeaponFireRate":"0",
             "o_damageReductionItems":"0",
             "o_overheatRecoveryTime":"9",
@@ -55,7 +55,7 @@
             "d_repairRate":"0",
             "d_radarDistance":"-39",
             "d_health":"2",
-            "d_weaponHeatReduction":"-450",
+            "d_weaponHeatReduction":"0",
             "d_runSpeed":"0",
             "d_traceDamageReduction":"0",
             "d_explosionDamageReduction":"0",
@@ -70,7 +70,7 @@
             "m_health":"0",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"473"
+            "m_increaseMovement":"621"
         }
     }
 }
