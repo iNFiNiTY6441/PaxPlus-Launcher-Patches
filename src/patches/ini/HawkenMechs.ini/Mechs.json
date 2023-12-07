@@ -4,7 +4,7 @@
 		"bFastMode": "false",
 		"bShowDisabledWeapons": "true",
 		"bShowDisabledItems": "true",
-		"bShowDisabledAttachments": "false",
+		"bShowDisabledAttachments": "true",
 		"bShowDisabledMechSubtypes": "true",
 		"DodgeSpeed": "2500",
 		"HeatMultiplier": "1.0",

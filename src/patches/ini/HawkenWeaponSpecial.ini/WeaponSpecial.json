@@ -101,17 +101,17 @@
     "EffectiveRangeForUI": "50",
     "AccuracyForUI": "55",
     "RefireRateDefault": "+1.33",
-    "SpreadDefault": "0.15",
+    "SpreadDefault": "0.10",
     "HeatPerShot": "-4.3",
     "WeapAimHelpDist": "500",
-    "NumProjPerShot": "10",
+    "NumProjPerShot": "3",
     "ZoomedTargetFOV": "55",
     "ZoomedRate": "300"
   },
   "Robots.R_Proj_Shrapnel_Rocket": {
     "SpeedDefault": "7000.0",
     "MaxSpeedDefault": "7000.0",
-    "DamageDefault": "8",
+    "DamageDefault": "20",
     "DamageRadiusDefault": "700.0"
   }
 }

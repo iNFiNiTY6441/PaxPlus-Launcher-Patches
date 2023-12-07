@@ -1,15 +1,15 @@
 {
-    "Raider": {
+    "G2-Berserker": {
 
       "initial": {
 
-        "MechType": "1",
-        "MechSubType": "2",
-        "PrimaryWeapon0": "1",
-        "PrimaryWeapon1": "4",
-        "OffensiveItem": "-1",
+        "MechType": "0",
+        "MechSubType": "5",
+        "PrimaryWeapon0": "6",
+        "PrimaryWeapon1": "9",
+        "OffensiveItem": "0",
         "DefensiveItem": "-1",
-        "FunctionalItem": "1",
+        "FunctionalItem": "-1",
         "OffensiveAttachment": "-1",
         "DefensiveAttachment": "-1",
         "FunctionalAttachment": "-1",
@@ -23,10 +23,10 @@
         "AccentHue": "80.000000",
         "AccentSaturation": "0.500000",
         "AccentValue": "0.250000",
-        "UpperPart": "1",
+        "UpperPart": "0",
         "MidPart": "1",
-        "LowerPart": "1",
-        "ArmPart": "1",
+        "LowerPart": "2",
+        "ArmPart": "0",
         "BoosterPart": "0",
         "ArmorPart": "0",
         "DroneType": "0",
@@ -34,43 +34,45 @@
         "AccentMid": "0",
         "AccentLower": "0",
         "AccentArm": "0"
+
       },
 
         "persist": {
 
             "o_increaseWeaponsDamage":"0",
-            "o_primaryWeaponFireRate":"32",
+            "o_primaryWeaponFireRate":"0",
             "o_shootingRadarSignatureDistance":"0",
             "o_itemDamage":"0",
-            "o_weaponHeatReduction":"35",
-            "o_specialWeaponFireRate":"-28",
+            "o_weaponHeatReduction":"0",
+            "o_specialWeaponFireRate":"48",
             "o_damageReductionItems":"0",
-            "o_overheatRecoveryTime":"4",
-            "o_increaseTraceDamage":"-30",
-            "o_increaseExplosionDamage":"3",
+            "o_overheatRecoveryTime":"0",
+            "o_increaseTraceDamage":"-10",
+            "o_increaseExplosionDamage":"116",
             "o_increaseAllDamage":"0",
             "d_healStartupTime":"0",
             "d_dodgeSpeed":"0",
             "d_damageReductionWeapons":"0",
             "d_repairRate":"0",
-            "d_radarDistance":"-36",
-            "d_health":"0",
-            "d_weaponHeatReduction":"0",
+            "d_radarDistance":"-42",
+            "d_health":"2",
+            "d_weaponHeatReduction":"10",
             "d_runSpeed":"0",
             "d_traceDamageReduction":"0",
             "d_explosionDamageReduction":"0",
             "d_decreaseAllDamage":"0",
-            "m_runSpeed":"4",
+            "m_runSpeed":"1",
             "m_accelerationRate":"0",
             "m_energyCapacity":"0",
-            "m_thrusterRegenRate":"-1",
-            "m_boostForwardSpeed":"37",
-            "m_maxThrusterEnergy":"-12",
+            "m_thrusterRegenRate":"-11",
+            "m_boostForwardSpeed":"-32",
+            "m_maxThrusterEnergy":"40",
             "m_reduceDodgeCooldown":"0",
-            "m_health":"3",
+            "m_health":"0",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"-16"
+            "m_increaseMovement":"-97"
         }
     }
+
 }
