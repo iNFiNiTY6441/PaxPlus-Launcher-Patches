@@ -215,13 +215,13 @@
     "TooltipText": "Increase damage for all weapons"
   },
   "R_Attachment_S_Armor": {
-    "DisplayName": "Armor",
-    "ModificationDescription": "Decrease Damage Received - 4%",
-    "TooltipText": "Decrease all damage received"
+    "DisplayName": "Spearhead System",
+    "ModificationDescription": "Increase Max Health +15, Increase All Damage 1.5%",
+    "TooltipText": "Increases max health and all weapon damage"
   },
   "R_Attachment_S_ArmorPlating": {
     "DisplayName": "Armor Plating",
-    "ModificationDescription": "Increase Max Health/Decrease Damage Dealt - +100 HP/-3% Damage",
+    "ModificationDescription": "Increase Max Health/Decrease Damage Dealt - +75 HP/-6% Damage",
     "TooltipText": "Increase max health but decrease all weapon damage"
   },
   "R_Attachment_S_ArmorSystems": {
@@ -231,37 +231,37 @@
   },
   "R_Attachment_S_ArtilleryFocus": {
     "DisplayName": "Artillery Focus",
-    "ModificationDescription": "Increase Damage/Decrease Max Health - +6% Damage/-50 HP",
+    "ModificationDescription": "Increase Damage/Decrease Max Health - +9% Damage/-50 HP",
     "TooltipText": "Increase all weapon damage but decrease max health"
   },
   "R_Attachment_S_ArtilleryPower": {
     "DisplayName": "Artillery Power",
-    "ModificationDescription": "Increase Damage/Increase Heating - +6% Damage/+10% Heating",
+    "ModificationDescription": "Increase Damage/Increase Heating - +9% Damage/+10% Heating",
     "TooltipText": "Increase all weapon damage but also increase heat generation"
   },
   "R_Attachment_S_FuelGenerator": {
-    "DisplayName": "Fuel Generator",
-    "ModificationDescription": "Increase Fuel Regen - .3/Sec",
-    "TooltipText": "Increase Fuel Regeneration Rate"
+    "DisplayName": "Recovery System",
+    "ModificationDescription": "Increase Fuel Regene +7L/s / Increase Repair Rate +7/s,"
+    "TooltipText": "Increase Fuel Regeneration Rate and Repair Rate"
   },
   "R_Attachment_S_FuelSystems": {
     "DisplayName": "Fuel Systems",
     "ModificationDescription": "Increase Max Fuel/Increase Fuel Regen - +1 Fuel/+.15 fuel regen",
-    "TooltipText": "Increase max fuel but increase fuel regeneration rate"
+    "TooltipText": "Increase max fuel and increase fuel regeneration rate"
   },
   "R_Attachment_S_Heatsinks": {
-    "DisplayName": "Heatsinks",
-    "ModificationDescription": "Reduce Weapon Heating - 10%",
-    "TooltipText": "Reduce weapon heat buildup"
+    "DisplayName": "Endurance Matrix",
+    "ModificationDescription": "Reduce Weapon Heating - 5%, Increase max health - 15",
+    "TooltipText": "Reduce weapon heat buildup and increase max health"
   },
   "R_Attachment_S_HeavyArmor": {
     "DisplayName": "Heavy Armor",
-    "ModificationDescription": "Increase Max Health/Decrease Boost Speed - +100 HP/-110 Boost",
+    "ModificationDescription": "Increase Max Health/Decrease Boost Speed - +75 HP/-220 Boost",
     "TooltipText": "Increase max health but decrease boost speed"
   },
   "R_Attachment_S_HeavyArtillery": {
     "DisplayName": "Heavy Artillery",
-    "ModificationDescription": "Increase Damage/Decrease Boost Speed - +6% Damage/-110 Boost",
+    "ModificationDescription": "Increase Damage/Decrease Boost Speed - +9% Damage/-220 Boost",
     "TooltipText": "Increase all weapon damage but decrease boost speed"
   },
   "R_Attachment_S_PropulsionFocus": {
@@ -275,19 +275,19 @@
     "TooltipText": "Increase boost speed but decrease all weapon damage"
   },
   "R_Attachment_S_ReinforcedArmor": {
-    "DisplayName": "Reinforced Armor",
-    "ModificationDescription": "+50 Max Health",
-    "TooltipText": "Increase max health"
+    "DisplayName": "Interlaced Plating",
+    "ModificationDescription": "Increase Max Health +100 / Decrease Repair Rate -30/s",
+    "TooltipText": "Increase max health but decreases repair rate"
   },
   "R_Attachment_S_Thrusters": {
-    "DisplayName": "Thrusters",
-    "ModificationDescription": "\"Increase Boost Forward Speed - 2.2 m/s\"",
-    "TooltipText": "Increase Forward Boost Speed"
+    "DisplayName": "Vented Heatsinks",
+    "ModificationDescription": "Increase Boost Speed +2.2m/s / Decrease Weapon Heating -5%",
+    "TooltipText": "Increase Fuel Regeneration Rate"
   },
   "R_Attachment_S_Weapons": {
-    "DisplayName": "Weapons",
-    "ModificationDescription": "Increase Weapons Damage - 3%",
-    "TooltipText": "Increase damage for all weapons"
+    "DisplayName": "Targeting Systems",
+    "ModificationDescription": "Increase Weapons Damage - 1.5%, Increase Radar - 8m",
+    "TooltipText": "Increase damage for all weapons and increase Radar range"
   },
   "R_Attachment_S_WeaponSystems": {
     "DisplayName": "Weapon Systems",

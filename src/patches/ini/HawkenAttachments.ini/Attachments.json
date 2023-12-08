@@ -103,40 +103,40 @@
       "Value[0]": "0.03"
     },
     "R_Attachment_S_Armor": {
-      "Value[0]": "-0.04"
+      "Value[0]": "0.015"
     },
     "R_Attachment_S_ArmorPlating": {
-      "Value[0]": "100",
-      "Value[1]": "-0.03"
+      "Value[0]": "75",
+      "Value[1]": "-0.06"
     },
     "R_Attachment_S_ArmorSystems": {
       "Value[0]": "25",
       "Value[1]": "-0.02"
     },
     "R_Attachment_S_ArtilleryFocus": {
-      "Value[0]": "0.06",
+      "Value[0]": "0.09",
       "Value[1]": "-50"
     },
     "R_Attachment_S_ArtilleryPower": {
-      "Value[0]": "0.06",
+      "Value[0]": "0.09",
       "Value[1]": "0.1"
     },
     "R_Attachment_S_FuelGenerator": {
-      "Value[0]": "0.3"
+      "Value[0]": "0.15"
     },
     "R_Attachment_S_FuelSystems": {
       "Value[0]": "1.0",
       "Value[1]": "0.15"
     },
     "R_Attachment_S_Heatsinks": {
-      "Value[0]": "0"
+      "Value[0]": "-0.05"
     },
     "R_Attachment_S_HeavyArmor": {
-      "Value[0]": "0",
-      "Value[1]": "0"
+      "Value[0]": "75",
+      "Value[1]": "-220"
     },
     "R_Attachment_S_HeavyArtillery": {
-      "Value[0]": "0.06",
+      "Value[0]": "0.09",
       "Value[1]": "-110.0"
     },
     "R_Attachment_S_PropulsionFocus": {
@@ -144,17 +144,17 @@
       "Value[1]": "-50"
     },
     "R_Attachment_S_PropulsionThrusters": {
-      "Value[0]": "220  +220 boost speed",
-      "Value[1]": "-0.03  -3% damage"
+      "Value[0]": "220",
+      "Value[1]": "-0.03"
     },
     "R_Attachment_S_ReinforcedArmor": {
-      "Value[0]": "50"
+      "Value[0]": "100"
     },
     "R_Attachment_S_Thrusters": {
       "Value[0]": "110"
     },
     "R_Attachment_S_Weapons": {
-      "Value[0]": "0.03  +3%"
+      "Value[0]": "0.015"
     },
     "R_Attachment_S_WeaponSystems": {
       "Value[0]": "0.015",
