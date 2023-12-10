@@ -43,7 +43,7 @@
       "Value[0]": "2000.0"
     },
     "R_Attachment_F_Thrusters": {
-      "Value[0]": "55"
+      "Value[0]": "330"
     },
     "R_Attachment_FA_EUCanisters": {
       "Value[0]": "100"
@@ -125,8 +125,8 @@
       "Value[0]": "0.7"
     },
     "R_Attachment_S_FuelSystems": {
-      "Value[0]": "1.0",
-      "Value[1]": "0.15"
+      "Value[0]": "0.5",
+      "Value[1]": "0.7"
     },
     "R_Attachment_S_Heatsinks": {
       "Value[0]": "-0.05"
@@ -151,7 +151,7 @@
       "Value[0]": "100"
     },
     "R_Attachment_S_Thrusters": {
-      "Value[0]": "330"
+      "Value[0]": "55"
     },
     "R_Attachment_S_Weapons": {
       "Value[0]": "0.015"

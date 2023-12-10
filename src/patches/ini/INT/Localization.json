@@ -55,7 +55,7 @@
     "TooltipText": "Decrease damage taken from explosions but increases Weapon Heating"
   },
   "R_Attachment_D_PlatedArmor": {
-    "DisplayName": "Focused Bulwark",
+    "DisplayName": "Bulwark Focus",
     "ModificationDescription": "-12% Bullet Damage Recieved\n-40m Radar Radius",
     "TooltipText": "Decrease damage taken from bullet but decreases Radar Radius"
   },
@@ -65,9 +65,9 @@
     "TooltipText": "Increase max health but increases all damage taken"
   },
   "R_Attachment_D_RepairKit": {
-    "DisplayName": "Repair Kit",
-    "ModificationDescription": "Increase Repair rate - 7 /sec",
-    "TooltipText": "Increase repair rate"
+    "DisplayName": "Advanced Repair Drone",
+    "ModificationDescription": "+7/s Repair Rate, +15 Max Health",
+    "TooltipText": "Increase repair rate and max health"
   },
   "R_Attachment_DA_Armor": {
     "DisplayName": "Advanced Armor",
@@ -150,13 +150,13 @@
     "TooltipText": "Increase damage for bullet weapons but Decrease Radar Radius"
   },
   "R_Attachment_O_CoolingUnits": {
-    "DisplayName": "Cooling Units",
+    "DisplayName": "Quick-Cycle Heatsinks",
     "ModificationDescription": "-2s Overheat Time\n+20% Weapon Heating",
     "TooltipText": "Reduce Overheat Recovery Time but Increase Weapon Heating"
   },
   "R_Attachment_O_ExplosiveMunitions": {
     "DisplayName": "System Overclock",
-    "ModificationDescription": "+4% Primary Weapon Fire Rate\n+2.2m/s Boost Speed",
+    "ModificationDescription": "+4% Primary Weapon Fire Rate\n+1.1m/s Boost Speed",
     "TooltipText": "Increase Primary Weapon Fire Rate and Boost Speed"
   },
   "R_Attachment_O_Heatsinks": {
@@ -246,7 +246,7 @@
   },
   "R_Attachment_S_FuelSystems": {
     "DisplayName": "Fuel Systems",
-    "ModificationDescription": "+10L Max Fuel\n+1.5L/s Fuel Regen",
+    "ModificationDescription": "+5L Max Fuel\n+7L/s Fuel Regen",
     "TooltipText": "Increase max fuel and increase fuel regeneration rate"
   },
   "R_Attachment_S_Heatsinks": {
@@ -295,7 +295,7 @@
     "TooltipText": "Increase all weapon damage and decrease heat generation"
   },
   "R_DeathMessage": {
-    "KilledString": "killed",
+    "KilledString": "destroyed",
     "SuicideString": "comitted suicide",
     "SuicideKilledByWeaponString": "Pilot Error",
     "ForceFieldKilledByWeaponString": "Electric Field",
