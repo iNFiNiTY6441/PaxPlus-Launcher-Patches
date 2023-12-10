@@ -34,13 +34,13 @@
       "Value[0]": "35"
     },
     "R_Attachment_F_FuelCanisters": {
-      "Value[0]": "0.5"
+      "Value[0]": "2"
     },
     "R_Attachment_F_FuelGenerator": {
-      "Value[0]": "0.8"
+      "Value[0]": "0.3"
     },
     "R_Attachment_F_Radars": {
-      "Value[0]": "500.0"
+      "Value[0]": "2000.0"
     },
     "R_Attachment_F_Thrusters": {
       "Value[0]": "55"
@@ -58,7 +58,7 @@
       "Value[0]": "1000.0"
     },
     "R_Attachment_FA_Thrusters": {
-      "Value[0]": "110.0"
+      "Value[0]": "660.0"
     },
     "R_Attachment_O_ArmorPiercingMunitions": {
       "Value[0]": "0.025"
@@ -122,7 +122,7 @@
       "Value[1]": "0.1"
     },
     "R_Attachment_S_FuelGenerator": {
-      "Value[0]": "0.15"
+      "Value[0]": "0.7"
     },
     "R_Attachment_S_FuelSystems": {
       "Value[0]": "1.0",
@@ -151,7 +151,7 @@
       "Value[0]": "100"
     },
     "R_Attachment_S_Thrusters": {
-      "Value[0]": "110"
+      "Value[0]": "330"
     },
     "R_Attachment_S_Weapons": {
       "Value[0]": "0.015"

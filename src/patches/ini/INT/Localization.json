@@ -45,9 +45,9 @@
     "TooltipText": "no tooltip"
   },
   "R_Attachment_D_Armor": {
-    "DisplayName": "Armor",
-    "ModificationDescription": "Decrease Damage Received - 2%",
-    "TooltipText": "Decrease all damage received"
+    "DisplayName": "Deflectors",
+    "ModificationDescription": "- 2% Damage Received\n+1.1m/s Boost Speed ",
+    "TooltipText": "Decrease all damage received and increase Boost Speed"
   },
   "R_Attachment_D_HeatResistantArmor": {
     "DisplayName": "Heat Resistant Armor",
@@ -71,17 +71,17 @@
   },
   "R_Attachment_DA_Armor": {
     "DisplayName": "Advanced Armor",
-    "ModificationDescription": "Decrease Damage Received - 4%",
+    "ModificationDescription": "-4% Damage Received",
     "TooltipText": "Decrease all damage received"
   },
   "R_Attachment_DA_HeatResistantArmor": {
     "DisplayName": "Advanced Heat Resistant Armor",
-    "ModificationDescription": "Decrease Explosion Damage Received - 6%",
+    "ModificationDescription": "-6% Explosion Damage Received",
     "TooltipText": "Decrease damage taken from explosions"
   },
   "R_Attachment_DA_PlatedArmor": {
     "DisplayName": "Advanced Plated Armor",
-    "ModificationDescription": "Decrease Trace Damage Received - 6%",
+    "ModificationDescription": "-6% Trace Damage Received",
     "TooltipText": "Decrease damage taken from bullets"
   },
   "R_Attachment_DA_ReinforcedArmor": {
@@ -91,57 +91,57 @@
   },
   "R_Attachment_DA_RepairKit": {
     "DisplayName": "Advanced Repair Kit",
-    "ModificationDescription": "Increase Repair rate - 15/sec",
+    "ModificationDescription": "+15/s Repair Rate",
     "TooltipText": "Increase repair rate"
   },
   "R_Attachment_F_EUCanisters": {
-    "DisplayName": "E.U. Canisters",
-    "ModificationDescription": "+35 Energy Unit Capacity",
-    "TooltipText": "Increase Energy Unit Carry Capacity"
+    "DisplayName": "E.U. Runner",
+    "ModificationDescription": "+50 E.U. Capacity, +1.1m/s Boost Speed",
+    "TooltipText": "Increase Energy Unit Carry Capacity and Boost Speed"
   },
   "R_Attachment_F_FuelCanisters": {
-    "DisplayName": "Fuel Canisters",
-    "ModificationDescription": "Increase Max Fuel - 0.5 unit",
+    "DisplayName": "Nanocavorite Frame",
+    "ModificationDescription": "+20L Max Fuel\n-75 Max Health",
     "TooltipText": "Increase Maximum Fuel Capacity"
   },
   "R_Attachment_F_FuelGenerator": {
-    "DisplayName": "Fuel Generator",
-    "ModificationDescription": "Increase Fuel Regen - 0.8/Sec",
-    "TooltipText": "Increase Fuel Regeneration Rate"
+    "DisplayName": "Prototype Vitrolium Capacitors",
+    "ModificationDescription": "+30L/s Fuel Regen\n+20% Weapon Heating",
+    "TooltipText": "Increase Fuel Regeneration Rate but also increase Weapon Heating"
   },
   "R_Attachment_F_Radars": {
-    "DisplayName": "Radars",
-    "ModificationDescription": "\"Increase Radar Distance - 30 m\"",
-    "TooltipText": "Increase Radar Distance"
+    "DisplayName": "Command Sensors",
+    "ModificationDescription": "+40m Radar radius\n-4.4m/s Boost Speed",
+    "TooltipText": "Increase Radar Distance but Decrease Boost Speed"
   },
   "R_Attachment_F_Thrusters": {
-    "DisplayName": "Thrusters",
-    "ModificationDescription": "\"Increase Boost Forward Speed - 1.1 m/s\"",
-    "TooltipText": "Increase Forward Boost Speed"
+    "DisplayName": "Afterburners",
+    "ModificationDescription": "+4.4 m/s Boost Speed\n-20L Max Fuel",
+    "TooltipText": "Increase Forward Boost Speed but Decrease Maximum Fuel"
   },
   "R_Attachment_FA_EUCanisters": {
     "DisplayName": "Advanced E.U. Canisters",
-    "ModificationDescription": "+70 Enerty Unit Capacity",
+    "ModificationDescription": "+100 E.U. Capacity",
     "TooltipText": "Increase Energy Unit Carry Capacity"
   },
   "R_Attachment_FA_FuelCanisters": {
     "DisplayName": "Advanced Fuel Canisters",
-    "ModificationDescription": "Increase Max Fuel - 1 unit",
+    "ModificationDescription": "+10L Max Fuel",
     "TooltipText": "Increase Maximum Fuel Capacity"
   },
   "R_Attachment_FA_FuelGenerator": {
     "DisplayName": "Advanced Fuel Generator",
-    "ModificationDescription": "Increase Fuel Regen - 0.15/Sec",
+    "ModificationDescription": "+15L/s Fuel Regen",
     "TooltipText": "Increase Fuel Regeneration Rate"
   },
   "R_Attachment_FA_Radars": {
     "DisplayName": "Advanced Radars",
-    "ModificationDescription": "\"Increase Radar Distance - 20 m\"",
+    "ModificationDescription": "+20m Radar radius",
     "TooltipText": "Increase Radar Distance"
   },
   "R_Attachment_FA_Thrusters": {
     "DisplayName": "Advanced Thrusters",
-    "ModificationDescription": "\"Increase Boost Forward Speed - 2.2 m/s\"",
+    "ModificationDescription": "+2.2 m/s Boost Speed",
     "TooltipText": "Increase Forward Boost Speed"
   },
   "R_Attachment_O_ArmorPiercingMunitions": {
@@ -181,117 +181,117 @@
   },
   "R_Attachment_OA_ArmorPiercingMunitions": {
     "DisplayName": "Advanced Armor Piercing Munitions",
-    "ModificationDescription": "Increase Trace Bullet Damage - 5%",
+    "ModificationDescription": "+5% Bullet Damage",
     "TooltipText": "Increase damage for bullet weapons"
   },
   "R_Attachment_OA_CoolingUnits": {
     "DisplayName": "Advanced Cooling Units",
-    "ModificationDescription": "Reduce Overheat Recover Time - 1.5 sec",
+    "ModificationDescription": "- 1.5s Overheat Time",
     "TooltipText": "Reduce overheat recovery time"
   },
   "R_Attachment_OA_ExplosiveMunitions": {
     "DisplayName": "Advanced Explosive Munitions",
-    "ModificationDescription": "Increase Explosion Damage - 5%",
+    "ModificationDescription": "+5% Explosion Damage",
     "TooltipText": "Increase damage for explosive weapons"
   },
   "R_Attachment_OA_Heatsinks": {
     "DisplayName": "Advanced Heatsinks",
-    "ModificationDescription": "Reduce Weapon Heating - 10%",
+    "ModificationDescription": "-10% Weapon Heating ",
     "TooltipText": "Reduce weapon heat buildup"
   },
   "R_Attachment_OA_PrimaryWeaponLoader": {
     "DisplayName": "Advanced Primary Weapon Loader",
-    "ModificationDescription": "Increase Primary Weapon Fire Rate - 8%",
+    "ModificationDescription": "+8% Primary Weapon Fire Rate ",
     "TooltipText": "Increased rate of fire for primary weapon"
   },
   "R_Attachment_OA_SpecialWeaponLoader": {
     "DisplayName": "Advanced Special Weapon Loader",
-    "ModificationDescription": "Increase Special Weapon Fire Rate - 0.25 seconds",
-    "TooltipText": "Increased rate of fire for secondary weapon"
+    "ModificationDescription": "-0.25s Special Weapon Reload Time ",
+    "TooltipText": "Increased reload speed for secondary weapon"
   },
   "R_Attachment_OA_Weapons": {
     "DisplayName": "Advanced Weapons",
-    "ModificationDescription": "Increase Weapons Damage - 3%",
+    "ModificationDescription": "+3% Weapons Damage",
     "TooltipText": "Increase damage for all weapons"
   },
   "R_Attachment_S_Armor": {
     "DisplayName": "Spearhead System",
-    "ModificationDescription": "Increase Max Health +15, Increase All Damage 1.5%",
+    "ModificationDescription": "+15 Max Health\n+1.5% Weapon Damage",
     "TooltipText": "Increases max health and all weapon damage"
   },
   "R_Attachment_S_ArmorPlating": {
     "DisplayName": "Armor Plating",
-    "ModificationDescription": "Increase Max Health/Decrease Damage Dealt - +75 HP/-6% Damage",
+    "ModificationDescription": "+75 Max Health\n-6% Weapon Damage",
     "TooltipText": "Increase max health but decrease all weapon damage"
   },
   "R_Attachment_S_ArmorSystems": {
     "DisplayName": "Armor Systems",
-    "ModificationDescription": "Increase Max Health/Decrease Damage Received - +25 HP/-2% Damage",
+    "ModificationDescription": "+25 Max Health\n-2% Damage Received",
     "TooltipText": "Increase max health and decrease all damage taken"
   },
   "R_Attachment_S_ArtilleryFocus": {
     "DisplayName": "Artillery Focus",
-    "ModificationDescription": "Increase Damage/Decrease Max Health - +9% Damage/-50 HP",
+    "ModificationDescription": "+9% Weapon Damage\n-50 Max Health",
     "TooltipText": "Increase all weapon damage but decrease max health"
   },
   "R_Attachment_S_ArtilleryPower": {
     "DisplayName": "Artillery Power",
-    "ModificationDescription": "Increase Damage/Increase Heating - +9% Damage/+10% Heating",
+    "ModificationDescription": "+9% Weapon Damage\n+10% Weapon Heating",
     "TooltipText": "Increase all weapon damage but also increase heat generation"
   },
   "R_Attachment_S_FuelGenerator": {
     "DisplayName": "Recovery System",
-    "ModificationDescription": "Increase Fuel Regene +7L/s / Increase Repair Rate +7/s,"
+    "ModificationDescription": "+7L/s Fuel Regen\n+7L/s Repair Rate",
     "TooltipText": "Increase Fuel Regeneration Rate and Repair Rate"
   },
   "R_Attachment_S_FuelSystems": {
     "DisplayName": "Fuel Systems",
-    "ModificationDescription": "Increase Max Fuel/Increase Fuel Regen - +1 Fuel/+.15 fuel regen",
+    "ModificationDescription": "+10L Max Fuel\n+1.5L/s Fuel Regen",
     "TooltipText": "Increase max fuel and increase fuel regeneration rate"
   },
   "R_Attachment_S_Heatsinks": {
     "DisplayName": "Endurance Matrix",
-    "ModificationDescription": "Reduce Weapon Heating - 5%, Increase max health - 15",
+    "ModificationDescription": "- 5% Weapon Heating\n+15 Max Health",
     "TooltipText": "Reduce weapon heat buildup and increase max health"
   },
   "R_Attachment_S_HeavyArmor": {
     "DisplayName": "Heavy Armor",
-    "ModificationDescription": "Increase Max Health/Decrease Boost Speed - +75 HP/-220 Boost",
+    "ModificationDescription": "+75 Max Health\n-4.4m/s Boost Speed",
     "TooltipText": "Increase max health but decrease boost speed"
   },
   "R_Attachment_S_HeavyArtillery": {
     "DisplayName": "Heavy Artillery",
-    "ModificationDescription": "Increase Damage/Decrease Boost Speed - +9% Damage/-220 Boost",
+    "ModificationDescription": "+9% Weapon Damage\n-4.4m/s Boost Speed",
     "TooltipText": "Increase all weapon damage but decrease boost speed"
   },
   "R_Attachment_S_PropulsionFocus": {
     "DisplayName": "Propulsion Focus",
-    "ModificationDescription": "Increase Boost Speed/Decrease Max Health - +220 Boost/-50 HP",
+    "ModificationDescription": "+4.4m/s Boost Speed\n-50 Max Health",
     "TooltipText": "Increase boost speed but decrease maximum health"
   },
   "R_Attachment_S_PropulsionThrusters": {
     "DisplayName": "Propulsion Thrusters",
-    "ModificationDescription": "Increase Boost Speed/Decrease Damage - +220 Boost/-3% Damage",
+    "ModificationDescription": "+4.4m/s Boost Speed\n-6% Weapon Damage",
     "TooltipText": "Increase boost speed but decrease all weapon damage"
   },
   "R_Attachment_S_ReinforcedArmor": {
     "DisplayName": "Interlaced Plating",
-    "ModificationDescription": "Increase Max Health +100 / Decrease Repair Rate -30/s",
+    "ModificationDescription": "+100 Max Health\n-30/s Repair Rate ",
     "TooltipText": "Increase max health but decreases repair rate"
   },
   "R_Attachment_S_Thrusters": {
     "DisplayName": "Vented Heatsinks",
-    "ModificationDescription": "Increase Boost Speed +2.2m/s / Decrease Weapon Heating -5%",
-    "TooltipText": "Increase Fuel Regeneration Rate"
+    "ModificationDescription": "+2.2m/s Boost Speed\n-5% Weapon Heating",
+    "TooltipText": "Increase boost speed and decrease heat generation "
   },
   "R_Attachment_S_Weapons": {
     "DisplayName": "Targeting Systems",
-    "ModificationDescription": "Increase Weapons Damage - 1.5%, Increase Radar - 8m",
-    "TooltipText": "Increase damage for all weapons and increase Radar range"
+    "ModificationDescription": "+1.5% Weapon Damage\n+8m Radar range",
+    "TooltipText": "Increase all weapon damage and increase Radar range"
   },
   "R_Attachment_S_WeaponSystems": {
     "DisplayName": "Weapon Systems",
-    "ModificationDescription": "Increase Damage/Decrease Weapon Heating - +1.5% Damage/-5% Heating",
+    "ModificationDescription": "+1.5% Weapon Damage\n-5% Weapon Heating",
     "TooltipText": "Increase all weapon damage and decrease heat generation"
   },
   "R_DeathMessage": {
@@ -1094,7 +1094,7 @@
   },
   "R_Weap_RepairTorch": {
     "DisplayName": "Helix Repair Torch",
-    "TooltipText": "Manufactured to aid allies in battle by reconstructing their Armor. Can transform itself to deconstruct enemies' Armor when needed."
+    "TooltipText": "Manufactured to aid allies in battle by reconstructing their Armor."
   },
   "R_Weap_Repeater": {
     "DisplayName": "EOC Repeater",
@@ -1110,7 +1110,7 @@
   },
   "R_Weap_ShrapnelLauncher": {
     "DisplayName": "SAARE",
-    "TooltipText": "Converts heat into a scatter of high explosive projectiles."
+    "TooltipText": "Fires a scatter of explosive projectiles."
   },
   "R_Weap_SlugRifle": {
     "DisplayName": "Slug Rifle",

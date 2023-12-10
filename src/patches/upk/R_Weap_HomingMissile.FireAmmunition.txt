@@ -14,7 +14,7 @@ OBJECT = R_Weap_HomingMissile.FireAmmunition : AUTO
 /*(0x0014/0x0014)*/ 1B <NotifyWeaponFired> 01 <Engine.Weapon.CurrentFireMode> 16 
 /*(0x0027/0x0023)*/ 07 [@label_0x007B] 77 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> 2A 16 
 /*(0x003F/0x0033)*/ 	1B <PlayFireAnimation> 4A 16 
-/*(0x004A/0x003E)*/ 	19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f 5.5> 16 ) 
+/*(0x004A/0x003E)*/ 	19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f 5> 16 ) 
 /*(0x007B/0x005F)*/ [#label_0x007B]
 /*(0x007B/0x005F)*/ 07 [@label_0x00B3] 77 01 <Engine.Actor.Instigator> 2A 16 
 /*(0x008A/0x006A)*/ 	19 01 <Engine.Actor.Instigator> [@] <NullRef> 00 ( 1B <IncrementFlashCount> 17 01 <Engine.Weapon.CurrentFireMode> 16 ) 
