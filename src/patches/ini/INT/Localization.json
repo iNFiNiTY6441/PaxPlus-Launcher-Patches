@@ -50,19 +50,19 @@
     "TooltipText": "Decrease all damage received and increase Boost Speed"
   },
   "R_Attachment_D_HeatResistantArmor": {
-    "DisplayName": "Heat Resistant Armor",
-    "ModificationDescription": "Decrease Explosion Damage Received - 3%",
-    "TooltipText": "Decrease damage taken from explosions"
+    "DisplayName": "Blastwave Suppressor",
+    "ModificationDescription": "-12% Explosion Damage Recieved\n+20% Weapon Heating",
+    "TooltipText": "Decrease damage taken from explosions but increases Weapon Heating"
   },
   "R_Attachment_D_PlatedArmor": {
-    "DisplayName": "Plated Armor",
-    "ModificationDescription": "Decrease Trace Damage Received - 3%",
-    "TooltipText": "Decrease damage taken from bullets"
+    "DisplayName": "Focused Bulwark",
+    "ModificationDescription": "-12% Bullet Damage Recieved\n-40m Radar Radius",
+    "TooltipText": "Decrease damage taken from bullet but decreases Radar Radius"
   },
   "R_Attachment_D_ReinforcedArmor": {
-    "DisplayName": "Reinforced Armor",
-    "ModificationDescription": "+15 Max Health",
-    "TooltipText": "Increase max health"
+    "DisplayName": "Ablative Armor",
+    "ModificationDescription": "+75 Max Health\n-+8% Damage Recieved",
+    "TooltipText": "Increase max health but increases all damage taken"
   },
   "R_Attachment_D_RepairKit": {
     "DisplayName": "Repair Kit",
@@ -81,7 +81,7 @@
   },
   "R_Attachment_DA_PlatedArmor": {
     "DisplayName": "Advanced Plated Armor",
-    "ModificationDescription": "-6% Trace Damage Received",
+    "ModificationDescription": "-6% Bullet Damage Received",
     "TooltipText": "Decrease damage taken from bullets"
   },
   "R_Attachment_DA_ReinforcedArmor": {
@@ -102,7 +102,7 @@
   "R_Attachment_F_FuelCanisters": {
     "DisplayName": "Nanocavorite Frame",
     "ModificationDescription": "+20L Max Fuel\n-75 Max Health",
-    "TooltipText": "Increase Maximum Fuel Capacity"
+    "TooltipText": "Increase Maximum Fuel Capacity but Decrease Maximum Health"
   },
   "R_Attachment_F_FuelGenerator": {
     "DisplayName": "Prototype Vitrolium Capacitors",
@@ -111,7 +111,7 @@
   },
   "R_Attachment_F_Radars": {
     "DisplayName": "Command Sensors",
-    "ModificationDescription": "+40m Radar radius\n-4.4m/s Boost Speed",
+    "ModificationDescription": "+40m Radar Radius\n-4.4m/s Boost Speed",
     "TooltipText": "Increase Radar Distance but Decrease Boost Speed"
   },
   "R_Attachment_F_Thrusters": {
@@ -136,7 +136,7 @@
   },
   "R_Attachment_FA_Radars": {
     "DisplayName": "Advanced Radars",
-    "ModificationDescription": "+20m Radar radius",
+    "ModificationDescription": "+20m Radar Radius",
     "TooltipText": "Increase Radar Distance"
   },
   "R_Attachment_FA_Thrusters": {
@@ -145,39 +145,39 @@
     "TooltipText": "Increase Forward Boost Speed"
   },
   "R_Attachment_O_ArmorPiercingMunitions": {
-    "DisplayName": "Armor Piercing Munitions",
-    "ModificationDescription": "Increase Trace Bullet Damage - 2.5%",
-    "TooltipText": "Increase damage for bullet weapons"
+    "DisplayName": "Close-Quarters Focus",
+    "ModificationDescription": "+10% Bullet Damage\n-40m Radar Radius",
+    "TooltipText": "Increase damage for bullet weapons but Decrease Radar Radius"
   },
   "R_Attachment_O_CoolingUnits": {
     "DisplayName": "Cooling Units",
-    "ModificationDescription": "Reduce Overheat Recover Time - 0.5 sec",
-    "TooltipText": "Reduce overheat recovery time"
+    "ModificationDescription": "-2s Overheat Time\n+20% Weapon Heating",
+    "TooltipText": "Reduce Overheat Recovery Time but Increase Weapon Heating"
   },
   "R_Attachment_O_ExplosiveMunitions": {
-    "DisplayName": "Explosive Munitions",
-    "ModificationDescription": "Increase Explosion Damage - 2.5%",
-    "TooltipText": "Increase damage for explosive weapons"
+    "DisplayName": "System Overclock",
+    "ModificationDescription": "+4% Primary Weapon Fire Rate\n+2.2m/s Boost Speed",
+    "TooltipText": "Increase Primary Weapon Fire Rate and Boost Speed"
   },
   "R_Attachment_O_Heatsinks": {
-    "DisplayName": "Heatsinks",
-    "ModificationDescription": "Reduce Weapon Heating - 5%",
-    "TooltipText": "Reduce weapon heat buildup"
+    "DisplayName": "Phoenix Module",
+    "ModificationDescription": "-5% Weapon Heating\n+7/s Repair Rate",
+    "TooltipText": "Reduce weapon heat buildup and Increase Repair Rate"
   },
   "R_Attachment_O_PrimaryWeaponLoader": {
-    "DisplayName": "Primary Weapon Loader",
-    "ModificationDescription": "Increase Primary Weapon Fire Rate - 4%",
-    "TooltipText": "Increased rate of fire for primary weapon"
+    "DisplayName": "Firestorm Loaders",
+    "ModificationDescription": "+4% Primary Weapon Fire Rate\n-0.12s Secondary Weapon Reload Time",
+    "TooltipText": "Increased rate of fire for Primary Weapon and reload speed for Secondary Weapon"
   },
   "R_Attachment_O_SpecialWeaponLoader": {
-    "DisplayName": "Special Weapon Loader",
-    "ModificationDescription": "Increase Special Weapon Fire Rate - 0.12 seconds",
-    "TooltipText": "Increased rate of fire for secondary weapon"
+    "DisplayName": "Weapon Stabilizer",
+    "ModificationDescription": "+9% Weapon Damage, -16% Primary Weapon Fire Rate, +0.5s Secondary reload time",
+    "TooltipText": "Increase all weapon damage but decrease Primary Weapon and Secondary Weapon Fire Rate"
   },
   "R_Attachment_O_Weapons": {
-    "DisplayName": "Weapons",
-    "ModificationDescription": "Increase Weapons Damage - 1.5%",
-    "TooltipText": "Increase damage for all weapons"
+    "DisplayName": "Ravager Module",
+    "ModificationDescription": "+9% Weapons Damage, +8% Damage Recieved",
+    "TooltipText": "Increase damage for all weapons but increase damage recieved"
   },
   "R_Attachment_OA_ArmorPiercingMunitions": {
     "DisplayName": "Advanced Armor Piercing Munitions",

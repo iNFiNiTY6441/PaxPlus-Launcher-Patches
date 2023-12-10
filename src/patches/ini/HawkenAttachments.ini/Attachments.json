@@ -4,13 +4,13 @@
       "Value[0]": "-0.02"
     },
     "R_Attachment_D_HeatResistantArmor": {
-      "Value[0]": "-0.03"
+      "Value[0]": "-0.12"
     },
     "R_Attachment_D_PlatedArmor": {
-      "Value[0]": "-0.03"
+      "Value[0]": "-0.12"
     },
     "R_Attachment_D_ReinforcedArmor": {
-      "Value[0]": "15"
+      "Value[0]": "75"
     },
     "R_Attachment_D_RepairKit": {
       "Value[0]": "7"
@@ -61,10 +61,10 @@
       "Value[0]": "660.0"
     },
     "R_Attachment_O_ArmorPiercingMunitions": {
-      "Value[0]": "0.025"
+      "Value[0]": "0.1"
     },
     "R_Attachment_O_CoolingUnits": {
-      "Value[0]": "-0.5"
+      "Value[0]": "-2"
     },
     "R_Attachment_O_ExplosiveMunitions": {
       "Value[0]": "0.025"
@@ -76,10 +76,10 @@
       "Value[0]": "0.04"
     },
     "R_Attachment_O_SpecialWeaponLoader": {
-      "Value[0]": "0.12"
+      "Value[0]": "0.5"
     },
     "R_Attachment_O_Weapons": {
-      "Value[0]": "0.015"
+      "Value[0]": "0.09"
     },
     "R_Attachment_OA_ArmorPiercingMunitions": {
       "Value[0]": "0.05"
@@ -88,7 +88,7 @@
       "Value[0]": "-1"
     },
     "R_Attachment_OA_ExplosiveMunitions": {
-      "Value[0]": "0.05"
+      "Value[0]": "0.04"
     },
     "R_Attachment_OA_Heatsinks": {
       "Value[0]": "-0.1"
