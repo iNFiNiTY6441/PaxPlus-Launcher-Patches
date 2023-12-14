@@ -5,7 +5,7 @@
 
         "MechType": "0",
         "MechSubType": "4",
-        "PrimaryWeapon0": "9",
+        "PrimaryWeapon0": "10",
         "PrimaryWeapon1": "3",
         "OffensiveItem": "-1",
         "DefensiveItem": "1",
@@ -48,7 +48,7 @@
         "o_damageReductionItems": "0",
         "o_overheatRecoveryTime": "-6",
         "o_increaseTraceDamage": "-37",
-        "o_increaseExplosionDamage": "-45",
+        "o_increaseExplosionDamage": "-58",
         "o_increaseAllDamage": "0",
         "d_healStartupTime": "0",
         "d_dodgeSpeed": "0",

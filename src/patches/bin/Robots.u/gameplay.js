@@ -92,6 +92,13 @@ const replacements = [
     { offset: 0x006BE0D0, from: [0xB1], to: [0xB7] }, //Replace Seeker fire animation with EOC fire animation
     { offset: 0x006BEB9D, from: [0x64], to: [0x4B] }, //Replace Slug Rifle recoil animation with SA-Hawkins
     { offset: 0x006BFFBC, from: [0x67], to: [0x4B] }, //Replace Sabot Rifle recoil animation with SA-Hawkins
+    { offset: 0x006C13F3, from: [0xB6], to: [0xC7] }, //Change Triseeker firing sound to SAARE sound
+    { offset: 0x006C14F7, from: [0x93], to: [0x92] }, //Change Triseeker 1st person mesh to GL
+    { offset: 0x006C14DB, from: [0x94], to: [0x92] }, //Change Triseeker 3rd person mesh to GL
+    { offset: 0x006C14BF, from: [0xB1], to: [0xAF] }, //Change Triseeker 1st person anim to GL
+    { offset: 0x006C14A3, from: [0xB2], to: [0x0B] }, //Change Triseeker 3rd person anim to GL
+    { offset: 0x006C1557, from: [0xAE, 0x2D], to: [0xE5, 0x2C] }, //Change Triseeker projectile to HE Charge
+
 
     //Mech Properties 
     { offset: 0x006550CA, from: [0x04], to: [0x0B] }, //Enable Turret Mode

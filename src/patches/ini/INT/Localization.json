@@ -363,7 +363,7 @@
     "R_DamageWeaponName": "StickyBomb"
   },
   "R_DmgType_TriSeeker": {
-    "R_DamageWeaponName": "Tri-Seeker"
+    "R_DamageWeaponName": "Rev-GL"
   },
   "R_DmgType_Turret": {
     "R_DamageWeaponName": "Turret"
@@ -1125,7 +1125,7 @@
     "TooltipText": "A long-range, magnet-based sniper with increased damage and accuracy when zoomed. Use the weapon utility function to Zoom-In for magnified vision."
   },
   "R_Weap_TriSeeker": {
-    "DisplayName": "Tri-Seeker",
-    "TooltipText": "Similar to the Seeker, but launches 3 missiles at a target. Unfortunately by increasing its power, it requires a longer reload time."
+    "DisplayName": "Rev-GL",
+    "TooltipText": "Rapidly fires high-velocity grenades at mid-range. The grenades detonate shortly after contact with a surface."
   }
 }

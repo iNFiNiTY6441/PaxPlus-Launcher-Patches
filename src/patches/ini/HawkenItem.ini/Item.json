@@ -14,13 +14,13 @@
     "ExplodeTime": "0.2"
   },
   "Robots.R_Proj_Grenade": {
-    "SpeedDefault": "1000",
-    "MaxSpeedDefault": "3000.0",
+    "SpeedDefault": "5500",
+    "MaxSpeedDefault": "5500.0",
     "DamageDefault": "65.0",
-    "DamageRadiusDefault": "800",
+    "DamageRadiusDefault": "625",
     "Bounciness": "0.5",
     "CooldownTime": "2",
-    "ExplodeTime": "1.0",
+    "ExplodeTime": "0.5",
     "ExplosionCameraShakeRadius": "2200"
   },
   "Robots.R_Proj_Shield": {
