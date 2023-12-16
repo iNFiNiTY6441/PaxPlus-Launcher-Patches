@@ -1,5 +1,4 @@
 {
-
   "Robots.R_Attachment_D_Armor": {
     "Value[0]": "-0.02"
   },
@@ -137,6 +136,7 @@
   },
   "Robots.R_Attachment_S_HeavyArtillery": {
     "Value[0]": "0.09",
+
     "Value[1]": "-110.0"
   },
   "Robots.R_Attachment_S_PropulsionFocus": {
@@ -155,6 +155,7 @@
   },
   "Robots.R_Attachment_S_Weapons": {
     "Value[0]": "0.015"
+
   },
   "Robots.R_Attachment_S_WeaponSystems": {
     "Value[0]": "0.015",

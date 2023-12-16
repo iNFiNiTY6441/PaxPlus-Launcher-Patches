@@ -9,6 +9,7 @@ jspm_packages/
 #Util EXEs
 utils/*
 !utils/UTIL_EXES_GO_HERE
+!utils/defaultMechsetupEntry.json
 
 #build results
 src/out/*

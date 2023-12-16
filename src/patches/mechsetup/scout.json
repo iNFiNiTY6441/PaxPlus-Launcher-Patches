@@ -1,42 +1,43 @@
 {
     "Scout": {
 
-      "initial": {
+        "initial": {
 
-        "MechType": "0",
-        "MechSubType": "12",
-        "PrimaryWeapon0": "7",
-        "PrimaryWeapon1": "1",
-        "OffensiveItem": "-1",
-        "DefensiveItem": "-1",
-        "FunctionalItem": "0",
-        "OffensiveAttachment": "-1",
-        "DefensiveAttachment": "-1",
-        "FunctionalAttachment": "-1",
-        "CamoPattern": "0",
-        "CamoPatternScale": "3",
-        "CamoPatternSaturation": "6",
-        "PatternUpper": "1",
-        "PatternMid": "1",
-        "PatternLower": "1",
-        "PatternArm": "1",
-        "AccentHue": "80.000000",
-        "AccentSaturation": "0.500000",
-        "AccentValue": "0.250000",
-        "UpperPart": "4",
-        "MidPart": "4",
-        "LowerPart": "4",
-        "ArmPart": "4",
-        "BoosterPart": "0",
-        "ArmorPart": "0",
-        "DroneType": "0",
-        "AccentUpper": "0",
-        "AccentMid": "0",
-        "AccentLower": "0",
-        "AccentArm": "0"
-      },
+            "MechType": "0",
+            "MechSubType": "12",
+            "PrimaryWeapon0": "7",
+            "PrimaryWeapon1": "1",
+            "OffensiveItem": "-1",
+            "DefensiveItem": "-1",
+            "FunctionalItem": "0",
+            "OffensiveAttachment": "-1",
+            "DefensiveAttachment": "-1",
+            "FunctionalAttachment": "-1",
+            "CamoPattern": "0",
+            "CamoPatternScale": "3",
+            "CamoPatternSaturation": "6",
+            "PatternUpper": "1",
+            "PatternMid": "1",
+            "PatternLower": "1",
+            "PatternArm": "1",
+            "AccentHue": "80.000000",
+            "AccentSaturation": "0.500000",
+            "AccentValue": "0.250000",
+            "UpperPart": "4",
+            "MidPart": "4",
+            "LowerPart": "4",
+            "ArmPart": "4",
+            "BoosterPart": "0",
+            "ArmorPart": "0",
+            "DroneType": "0",
+            "AccentUpper": "0",
+            "AccentMid": "0",
+            "AccentLower": "0",
+            "AccentArm": "0"
+        },
 
         "persist": {
+            "MechType": "0",
             "MechSubType": "12",
             "o_increaseWeaponsDamage":"0",
             "o_primaryWeaponFireRate":"0",
@@ -71,6 +72,7 @@
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
             "m_increaseMovement":"28"
+
         }
     }
 }

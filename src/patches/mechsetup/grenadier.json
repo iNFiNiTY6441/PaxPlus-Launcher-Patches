@@ -1,8 +1,8 @@
 {
     "Grenadier": {
 
-      "initial": {
-
+        "initial": {
+          
         "MechType": "2",
         "MechSubType": "6",
         "PrimaryWeapon0": "10",
