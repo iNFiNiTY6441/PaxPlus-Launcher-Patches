@@ -37,7 +37,7 @@
       },
 
         "persist": {
-
+            "MechSubType": "10",
             "o_increaseWeaponsDamage":"0",
             "o_primaryWeaponFireRate":"0",
             "o_shootingRadarSignatureDistance":"0",
