@@ -1,4 +1,4 @@
-    {
+{
     "Rocketeer": {
 
         "initial": {
@@ -37,41 +37,41 @@
         },
 
         "persist": {
-
             "MechType": "2",
-            "o_increaseWeaponsDamage": "0",
-            "o_primaryWeaponFireRate": "0",
-            "o_shootingRadarSignatureDistance": "0",
-            "o_itemDamage": "0",
-            "o_weaponHeatReduction": "0",
-            "o_specialWeaponFireRate": "0",
-            "o_damageReductionItems": "0",
-            "o_overheatRecoveryTime": "1",
-            "o_increaseTraceDamage": "0",
-            "o_increaseExplosionDamage": "0",
-            "o_increaseAllDamage": "0",
-            "d_healStartupTime": "0",
-            "d_dodgeSpeed": "0",
-            "d_damageReductionWeapons": "0",
-            "d_repairRate": "0",
-            "d_radarDistance": "-39",
-            "d_health": "1",
-            "d_weaponHeatReduction": "0",
-            "d_runSpeed": "0",
-            "d_traceDamageReduction": "0",
-            "d_explosionDamageReduction": "0",
-            "d_decreaseAllDamage": "0",
-            "m_runSpeed": "2",
-            "m_accelerationRate": "0",
-            "m_energyCapacity": "0",
-            "m_thrusterRegenRate": "-4",
-            "m_boostForwardSpeed": "13",
-            "m_maxThrusterEnergy": "10",
-            "m_reduceDodgeCooldown": "0",
-            "m_health": "1",
-            "m_radarSignatureDistance": "0",
-            "m_radarDistance": "0",
-            "m_increaseMovement": "40"
+            "MechSubType": "11",
+            "o_increaseWeaponsDamage":"0",
+            "o_primaryWeaponFireRate":"0",
+            "o_shootingRadarSignatureDistance":"0",
+            "o_itemDamage":"0",
+            "o_weaponHeatReduction":"0",
+            "o_specialWeaponFireRate":"0",
+            "o_damageReductionItems":"0",
+            "o_overheatRecoveryTime":"1",
+            "o_increaseTraceDamage":"0",
+            "o_increaseExplosionDamage":"0",
+            "o_increaseAllDamage":"0",
+            "d_healStartupTime":"0",
+            "d_dodgeSpeed":"0",
+            "d_damageReductionWeapons":"0",
+            "d_repairRate":"0",
+            "d_radarDistance":"-39",
+            "d_health":"1",
+            "d_weaponHeatReduction":"0",
+            "d_runSpeed":"0",
+            "d_traceDamageReduction":"0",
+            "d_explosionDamageReduction":"0",
+            "d_decreaseAllDamage":"0",
+            "m_runSpeed":"2",
+            "m_accelerationRate":"0",
+            "m_energyCapacity":"0",
+            "m_thrusterRegenRate":"-4",
+            "m_boostForwardSpeed":"13",
+            "m_maxThrusterEnergy":"10",
+            "m_reduceDodgeCooldown":"0",
+            "m_health":"1",
+            "m_radarSignatureDistance":"0",
+            "m_radarDistance":"0",
+            "m_increaseMovement":"40"
         }
     }
-    }
+}
