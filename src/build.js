@@ -26,6 +26,7 @@ var buildConfig = null;
 // Patch storage objects
 var fileRequirements = {};
 var iniPatches = {};
+var localizationPatches = {};
 var upkPatches = {};
 var binaryPatches = {};
 var mechSetupPatches = {};
@@ -115,32 +116,163 @@ async function patchUPK( upkDirectory, patchFilePath ) {
     return output;
 }
 
-/**
- * Sets a key to a specific value within a parsed ini object
- * 
- * @param {Object} parsedIni Parsed ini object 
- * @param {*} section Section of the ini
- * @param {*} key Key of the ini
- * @param {*} value Value to set the key to
- * @returns If the key already existed or had to be created
- */
-function setIniValue( parsedIni, section, key, value) {
-    const sectionParts = section.split('.');
-    let currentSection = parsedIni;
 
-    let exists = true;
+function parseMechSetupText( rawText ) {
 
-    for (const sectionPart of sectionParts) {
-        if (!currentSection[sectionPart]) {
-            exists = false;
-            currentSection[sectionPart] = {};
+    let setupObject = {};
+
+    let lines = rawText.split("\r\n");
+
+    let mechName = "";
+
+    for ( let i = 0; i < lines.length; i++ ) {
+
+        let key = lines[i].split("=")[0];
+        let value = lines[i].split("=")[1];
+
+        if ( key == "MechName" ) {
+
+            mechName = value;
+            continue;
         }
-        currentSection = currentSection[sectionPart];
+
+        if ( mechName == "" ) continue;
+
+        if ( !setupObject[mechName] ) setupObject[mechName] = {};
+        
+        while ( setupObject[mechName][key] != undefined ) key = key+"._duplicate";
+
+        setupObject[mechName][key] = value;
     }
 
-    if ( !currentSection[key] ) exists = false;
-    currentSection[key] = value;
-    return exists;
+    return setupObject;
+}
+
+function mechsetupToText( setupObject ) {
+
+    // Header: File version
+    let setupText = ["Version=11"];
+
+    // Header: How many mechs are contained in the file
+    setupText.push("NumMechs="+Object.keys( setupObject ).length);
+
+    for ( let mechName in setupObject ) {
+
+        // Start mech segment with MechName
+        setupText.push(`MechName=${mechName}`);
+
+        for (let [key, value] of Object.entries(setupObject[mechName])) {
+
+            // Undo renaming of keys that occur multiple times
+            if ( key.indexOf("._duplicate") >= 0 ) {
+                key = key.split("._duplicate")[0];
+            }
+            //console.log(`${key}=${value}`)
+            // Add key value pair to output text
+            setupText.push(`${key}=${value}`);
+        }
+    
+    }
+    
+    // MechSetup text format as used by the game
+    return setupText.join("\r\n");
+}
+
+function patchAllMechsetupData( patchObject, cleanSlate = false  ) {
+
+    // Remove setups that aren't present in patch data
+    for ( let mechName in this.config ) {
+
+        if ( Object.keys( patchObject ).indexOf( mechName ) == -1 ) {
+            this.deleteMech( mechName );
+            continue;
+        }
+    }
+
+    for ( let mechName in patchObject ) {
+
+        if ( !this.config[mechName] || cleanSlate === true ) {
+            if ( cleanSlate ) console.log("Wiping mech to patch baseline: "+mechName);
+            if ( !cleanSlate ) console.log("Adding new mech: "+mechName)
+            this.config[mechName] = Object.assign({}, defaultMechEntry);
+            this.config[mechName] = Object.assign(this.config[mechName], patchObject[mechName].initial );
+        }
+
+        this.config[mechName] = Object.assign(this.config[mechName], patchObject[mechName].persist );
+    }
+   //console.log(this.config)
+}
+
+function custom_parse( iniText ) {
+
+    let iniObject = {};
+
+    let lines = iniText.split("\r\n");
+    let currentSection = '';
+
+    for ( let line of lines ) {
+
+        let sectionMatch = line.match(/\[.*\]$/gm);
+        if ( sectionMatch ) {
+            currentSection = sectionMatch[0].slice(1,-1);
+            iniObject[currentSection] = {};
+            continue;
+        }
+
+        let key = line.match(/^[^=]*/g);
+        let value = line.match(/\=(.*)/g);
+
+        if ( !key || !value ) continue;
+
+        key = key[0].trim();
+        value = value[0].trim().slice(1);
+
+        if ( Object.keys(iniObject[currentSection]).indexOf( key ) == -1 ) {
+            iniObject[currentSection][key] = value;
+            continue;
+        }
+
+        if (iniObject[currentSection][key].constructor === Array) {
+            iniObject[currentSection][key].push( value ); 
+            continue;
+        } 
+        
+        iniObject[currentSection][key] = [ iniObject[currentSection][key], value ] //array   
+    }
+
+    return iniObject;
+}
+/**
+ * Custom ini object stringify implementation.
+ * Writes arrays as multiple sequential occurrences of the same key.
+ * @param {Object} iniObject The parsed ini object to stringify
+ * @returns {String} The ini text
+ */
+function custom_stringify( iniObject ) {
+
+    let iniLines = [];
+
+    for ( let section in iniObject ) {
+
+        iniLines.push(`[${section}]`);
+
+        for ( let key in iniObject[section] ) {
+
+            if ( iniObject[section][key].constructor === Array ) {
+
+                for ( let i=0; i < iniObject[section][key].length; i++ ) {
+                    iniLines.push(`${key}=${iniObject[section][key][i]}`);
+                }
+
+            } else {
+                iniLines.push(`${key}=${iniObject[section][key]}`);
+            }
+        }
+
+        iniLines.push("");
+    }
+    
+    return iniLines.join("\r\n");
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -392,12 +524,13 @@ async function applyPatches_binary() {
 
         }
 
-        if (fileDescriptor) close(fileDescriptor);
+        if (fileDescriptor) await close(fileDescriptor);
 
         patchOperationObject.fileOriginalSize = binaryPatches[ patchTargetFile ].originalSize;
         patchOperationObject.requiredHash = binaryPatches[ patchTargetFile ].requiredHash;
 
         patchOperationObject.targetHash = getHash( patchTargetFilePath );
+        patchOperationObject.patchAppliedHash = getHash( patchTargetFilePath );
         console.log("")
         console.log("           Patched Hash: "+getHash( patchTargetFilePath ) );
 
@@ -428,6 +561,8 @@ async function applyPatches_UPK(){
     // All UPKUtils patchdata can be merged into one text file, the exe handles opening the different upk files
     let combinedPatchData = "";
 
+
+
     // Each queued txt patch file
     for ( let patch in upkPatches ) {
 
@@ -441,12 +576,15 @@ async function applyPatches_UPK(){
     console.log("       Merging UPKPatches...");
 
     // Add UPKUtils patch operation
-    patchPackage.operations.push({
 
+    let patchOperationObject = {
         operationType: "upkUtilsPatcher",
-        data: combinedPatchData
-    });
-
+        filePath: "./HawkenGame/CookedPC/Robots.u",
+        data: combinedPatchData,
+        requiredHash: getHash( path.join( GAME_UPK_DIR, "Robots.u" ) )
+    };
+    
+    patchOperationObject.patchAppliedHash = 
     // Write all combined operation text into a file, as the exe needs to read from a patch file
     await fs.writeFileSync( "./out/temp_upkutils_patch.txt", combinedPatchData );
     console.log("       MERGED TO: ./out/temp_upkutils_patch.txt\r\n");
@@ -465,6 +603,12 @@ async function applyPatches_UPK(){
         console.log(log);
     }
 
+    patchPackage.operations.push(patchOperationObject);
+
+    let robotsFile = path.join( GAME_UPK_DIR, "Robots.u" );
+    
+    patchPackage.meta.targetHashes["./HawkenGame/CookedPC/Robots.u"] = getHash( robotsFile );
+
     console.log("       DONE!");
 }
 
@@ -475,11 +619,61 @@ async function applyPatches_UPK(){
  */
 async function applyPatches_mechSetup(){
 
+    console.log("");
+    console.log("       MECHSETUP PATCH___________________________");
+    console.log("")
+
     patchPackage.operations.push({
 
         operationType: "mechsetupPatcher",
         data: JSON.stringify( mechSetupPatches )
     });
+
+    let defaultMechEntry = require('../utils/defaultMechsetupEntry.json');
+
+    let mechsetupFilepath = path.join( buildConfig.game.installDir, "HawkenGame", "MechSetup_default.txt" );
+    let mechsetupFileText = fs.readFileSync( mechsetupFilepath, 'utf-8');
+
+    let mechsetups_object = parseMechSetupText( mechsetupFileText );
+
+    // Delete all non patch mechs
+    for ( let mechName in mechsetups_object ) {
+
+        if ( Object.keys( mechSetupPatches ).indexOf( mechName ) == -1 ) {
+            delete mechsetups_object[mechName];
+            console.log("       [DELETE]: "+mechName);
+            continue;
+        }
+    }
+    console.log("");
+    console.log("       [1/2]: Patch-foreign presets removed.");
+    console.log("");
+    
+    // Patch all mechs to baseline
+    for ( let mechName in mechSetupPatches ) {
+
+        console.log("       [CREATE]: "+mechName);
+        mechsetups_object[mechName] = Object.assign({}, defaultMechEntry);
+        console.log("            |- [Default] ");
+        mechsetups_object[mechName] = Object.assign(mechsetups_object[mechName], mechSetupPatches[mechName].initial );
+        console.log("            |- [Initial] ");
+        mechsetups_object[mechName] = Object.assign(mechsetups_object[mechName], mechSetupPatches[mechName].persist );
+        console.log("            |- [Persist] ");
+        console.log("            [DONE] ");
+        console.log("");
+    }
+
+    console.log("");
+    console.log("       [2/2]: All valid mechs patched to baseline.");
+    console.log("");
+
+    let newSetupText = mechsetupToText( mechsetups_object );
+
+    fs.writeFileSync( mechsetupFilepath, newSetupText);
+    console.log("");
+    console.log("       [DONE]: Setups written to file");
+    console.log("");
+    
 }
 
 /**
@@ -513,9 +707,13 @@ async function applyPatches_Ini(){
 
         // "Default..." ini files are stored in the base game directory, change accordingly
         if ( iniFileName.startsWith("Default") ) filePath = path.join( buildConfig.game.installDir, "HawkenGame", "Config", iniFileName );
+
+        // Localisation files files are stored in the base game directory, change accordingly
+        if ( iniFileName.endsWith(".int") ) filePath = path.join( buildConfig.game.installDir, "HawkenGame", "Localization", "INT", iniFileName );
         
 
-        let iniFile = ini.parse( fs.readFileSync( filePath, 'utf-8' ) );
+        let iniFile = custom_parse( fs.readFileSync( filePath, 'utf-8' ) );
+        //console.log(iniFile);
 
         // Each key in the ini patch config is a section within the ini file
         for ( let iniSection in iniPatches[iniFileName] ) {
@@ -524,7 +722,10 @@ async function applyPatches_Ini(){
             for ( let iniKey in iniPatches[iniFileName][iniSection] ) {
 
                 // setIniValue will return whether the key-value pair had to be created or if it was just set to the new value
-                let exists = await setIniValue( iniFile, iniSection, iniKey, iniPatches[iniFileName][iniSection][iniKey]);
+                let exists = iniFile[iniSection][iniKey] != undefined && iniFile[iniSection][iniKey] != null;
+
+                // Set value
+                iniFile[iniSection][iniKey] = iniPatches[iniFileName][iniSection][iniKey];
 
                 // Push key-value modification as an action for the patch operation for this ini file
                 patchOperationObject.actions.push({
@@ -544,7 +745,7 @@ async function applyPatches_Ini(){
 
         // Write changes to ini file
         console.log("\r\n       File saved.")
-        fs.writeFileSync( filePath, ini.stringify( iniFile ) );
+       // fs.writeFileSync( filePath, custom_stringify( iniFile ) );
 
     }
 
@@ -581,7 +782,11 @@ async function buildRemotePackage() {
 
     // Prepare patchPackage
     patchPackage = {
-        meta: buildConfig.package,
+        meta: {
+            version: buildConfig.package.version,
+            name: buildConfig.package.name,
+            targetHashes: {}
+        },
         operations: []
     };
 
@@ -630,4 +835,3 @@ async function buildRemotePackage() {
 
 
 buildRemotePackage();
-
