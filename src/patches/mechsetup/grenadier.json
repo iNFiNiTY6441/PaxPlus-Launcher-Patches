@@ -5,8 +5,8 @@
 
         "MechType": "2",
         "MechSubType": "6",
-        "PrimaryWeapon0": "2",
-        "PrimaryWeapon1": "0",
+        "PrimaryWeapon0": "10",
+        "PrimaryWeapon1": "2",
         "OffensiveItem": "0",
         "DefensiveItem": "-1",
         "FunctionalItem": "-1",

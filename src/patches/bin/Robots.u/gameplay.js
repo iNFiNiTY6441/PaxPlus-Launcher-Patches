@@ -97,6 +97,7 @@ const replacements = [
     { offset: 0x006C14DB, from: [0x94], to: [0x92] }, //Change Triseeker 3rd person mesh to GL
     { offset: 0x006C14BF, from: [0xB1], to: [0xAF] }, //Change Triseeker 1st person anim to GL
     { offset: 0x006C14A3, from: [0xB2], to: [0x0B] }, //Change Triseeker 3rd person anim to GL
+    { offset: 0x006C146B, from: [0x57], to: [0x5E] }, //Change Triseeker recoil anim to EOC
     { offset: 0x006C1557, from: [0xAE, 0x2D], to: [0xE5, 0x2C] }, //Change Triseeker projectile to HE Charge
 
 
