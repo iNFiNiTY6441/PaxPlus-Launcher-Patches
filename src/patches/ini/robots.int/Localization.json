@@ -46,7 +46,7 @@
   },
   "R_Attachment_D_Armor": {
     "DisplayName": "Deflectors",
-    "ModificationDescription": "- 2% Damage Received\n+1.1m/s Boost Speed ",
+    "ModificationDescription": "-2% Damage Received\n+1.1m/s Boost Speed ",
     "TooltipText": "Decrease all damage received and increase Boost Speed"
   },
   "R_Attachment_D_HeatResistantArmor": {
@@ -172,7 +172,7 @@
   "R_Attachment_O_SpecialWeaponLoader": {
     "DisplayName": "Weapon Stabilizer",
     "ModificationDescription": "+9% Weapon Damage, -16% Primary Weapon Fire Rate, +0.5s Secondary reload time",
-    "TooltipText": "Increase all weapon damage but decrease Primary Weapon and Secondary Weapon Fire Rate"
+    "TooltipText": "Increase all weapon damage 9% but decrease Primary Weapon Fire Rate 16% and increase Secondary Weapon reload time 0.5s"
   },
   "R_Attachment_O_Weapons": {
     "DisplayName": "Ravager Module",
@@ -186,7 +186,7 @@
   },
   "R_Attachment_OA_CoolingUnits": {
     "DisplayName": "Advanced Cooling Units",
-    "ModificationDescription": "- 1.5s Overheat Time",
+    "ModificationDescription": "-1.5s Overheat Time",
     "TooltipText": "Reduce overheat recovery time"
   },
   "R_Attachment_OA_ExplosiveMunitions": {
@@ -216,82 +216,82 @@
   },
   "R_Attachment_S_Armor": {
     "DisplayName": "Spearhead System",
-    "ModificationDescription": "+15 Max Health\n+1.5% Weapon Damage",
+    "ModificationDescription": "+15 Max Health +1.5% Weapon Damage",
     "TooltipText": "Increases max health and all weapon damage"
   },
   "R_Attachment_S_ArmorPlating": {
     "DisplayName": "Armor Plating",
-    "ModificationDescription": "+75 Max Health\n-6% Weapon Damage",
+    "ModificationDescription": "+75 Max Health -6% Weapon Damage",
     "TooltipText": "Increase max health but decrease all weapon damage"
   },
   "R_Attachment_S_ArmorSystems": {
     "DisplayName": "Armor Systems",
-    "ModificationDescription": "+25 Max Health\n-2% Damage Received",
+    "ModificationDescription": "+15 Max Health -2% Damage Received",
     "TooltipText": "Increase max health and decrease all damage taken"
   },
   "R_Attachment_S_ArtilleryFocus": {
     "DisplayName": "Artillery Focus",
-    "ModificationDescription": "+9% Weapon Damage\n-50 Max Health",
+    "ModificationDescription": "+9% Weapon Damage -50 Max Health",
     "TooltipText": "Increase all weapon damage but decrease max health"
   },
   "R_Attachment_S_ArtilleryPower": {
     "DisplayName": "Artillery Power",
-    "ModificationDescription": "+9% Weapon Damage\n+10% Weapon Heating",
+    "ModificationDescription": "+9% Weapon Damage +10% Weapon Heat",
     "TooltipText": "Increase all weapon damage but also increase heat generation"
   },
   "R_Attachment_S_FuelGenerator": {
     "DisplayName": "Recovery System",
-    "ModificationDescription": "+7L/s Fuel Regen\n+7L/s Repair Rate",
+    "ModificationDescription": "+7L/s Fuel Regen +7L/s Repair Rate",
     "TooltipText": "Increase Fuel Regeneration Rate and Repair Rate"
   },
   "R_Attachment_S_FuelSystems": {
     "DisplayName": "Fuel Systems",
-    "ModificationDescription": "+5L Max Fuel\n+7L/s Fuel Regen",
+    "ModificationDescription": "+5L Max Fuel +7L/s Fuel Regen",
     "TooltipText": "Increase max fuel and increase fuel regeneration rate"
   },
   "R_Attachment_S_Heatsinks": {
     "DisplayName": "Endurance Matrix",
-    "ModificationDescription": "- 5% Weapon Heating\n+15 Max Health",
+    "ModificationDescription": "-5% Weapon Heat +15 Max Health",
     "TooltipText": "Reduce weapon heat buildup and increase max health"
   },
   "R_Attachment_S_HeavyArmor": {
     "DisplayName": "Heavy Armor",
-    "ModificationDescription": "+75 Max Health\n-4.4m/s Boost Speed",
+    "ModificationDescription": "+75 Max Health -4.4m/s Boost Speed",
     "TooltipText": "Increase max health but decrease boost speed"
   },
   "R_Attachment_S_HeavyArtillery": {
     "DisplayName": "Heavy Artillery",
-    "ModificationDescription": "+9% Weapon Damage\n-4.4m/s Boost Speed",
+    "ModificationDescription": "+9% Weapon Damage -4.4m/s Boost Speed",
     "TooltipText": "Increase all weapon damage but decrease boost speed"
   },
   "R_Attachment_S_PropulsionFocus": {
     "DisplayName": "Propulsion Focus",
-    "ModificationDescription": "+4.4m/s Boost Speed\n-50 Max Health",
+    "ModificationDescription": "+4.4m/s Boost Speed -50 Max Health",
     "TooltipText": "Increase boost speed but decrease maximum health"
   },
   "R_Attachment_S_PropulsionThrusters": {
     "DisplayName": "Propulsion Thrusters",
-    "ModificationDescription": "+4.4m/s Boost Speed\n-6% Weapon Damage",
+    "ModificationDescription": "+4.4m/s Boost Speed -6% Weapon Damage",
     "TooltipText": "Increase boost speed but decrease all weapon damage"
   },
   "R_Attachment_S_ReinforcedArmor": {
     "DisplayName": "Interlaced Plating",
-    "ModificationDescription": "+100 Max Health\n-30/s Repair Rate ",
+    "ModificationDescription": "+100 Max Health -30/s Repair Rate ",
     "TooltipText": "Increase max health but decreases repair rate"
   },
   "R_Attachment_S_Thrusters": {
     "DisplayName": "Vented Heatsinks",
-    "ModificationDescription": "+2.2m/s Boost Speed\n-5% Weapon Heating",
+    "ModificationDescription": "+2.2m/s Boost Speed -5% Weapon Heat",
     "TooltipText": "Increase boost speed and decrease heat generation "
   },
   "R_Attachment_S_Weapons": {
     "DisplayName": "Targeting Systems",
-    "ModificationDescription": "+1.5% Weapon Damage\n+8m Radar range",
+    "ModificationDescription": "+1.5% Weapon Damage +8m Radar range",
     "TooltipText": "Increase all weapon damage and increase Radar range"
   },
   "R_Attachment_S_WeaponSystems": {
     "DisplayName": "Weapon Systems",
-    "ModificationDescription": "+1.5% Weapon Damage\n-5% Weapon Heating",
+    "ModificationDescription": "+1.5% Weapon Damage -5% Weapon Heat",
     "TooltipText": "Increase all weapon damage and decrease heat generation"
   },
   "R_DeathMessage": {
