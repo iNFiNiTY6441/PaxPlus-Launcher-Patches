@@ -75,7 +75,7 @@
     "Value[0]": "0.04"
   },
   "Robots.R_Attachment_O_SpecialWeaponLoader": {
-    "Value[0]": "0.5"
+    "Value[0]": "-0.5"
   },
   "Robots.R_Attachment_O_Weapons": {
     "Value[0]": "0.09"
