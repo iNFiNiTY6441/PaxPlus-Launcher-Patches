@@ -7,6 +7,6 @@ UPK_FILE = robots.u
 OBJECT = R_Attachment_D_RepairKit.ApplyToPawn : AUTO
 [REPLACEMENT_CODE]
 /*(0x0000/0x0000)*/ 1B <IncreaseRepairRate> 00 <.P> 10 25 02 <R_Attachment_Base.Value> 16 
-/*(0x0000/0x0000)*/ 1B <IncreaseRepairRate> 00 <.P> 1E <%f 15> 16 
+/*(0x0000/0x0000)*/ 1B <IncreaseMaxHealth> 00 <.P> 1E <%f 15> 16 
 /*(0x001E/0x0016)*/ 04 0B 
 /*(0x0020/0x0018)*/ 53 
