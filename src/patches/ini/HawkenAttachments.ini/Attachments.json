@@ -36,7 +36,7 @@
     "Value[0]": "2"
   },
   "Robots.R_Attachment_F_FuelGenerator": {
-    "Value[0]": "0.3"
+    "Value[0]": "3"
   },
   "Robots.R_Attachment_F_Radars": {
     "Value[0]": "2000.0"
@@ -75,7 +75,7 @@
     "Value[0]": "0.04"
   },
   "Robots.R_Attachment_O_SpecialWeaponLoader": {
-    "Value[0]": "0.5"
+    "Value[0]": "-0.5"
   },
   "Robots.R_Attachment_O_Weapons": {
     "Value[0]": "0.09"
