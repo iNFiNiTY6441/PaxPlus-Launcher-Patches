@@ -106,7 +106,7 @@
   },
   "R_Attachment_F_FuelGenerator": {
     "DisplayName": "Prototype Vitrolium Capacitors",
-    "ModificationDescription": "+30L/s Fuel Regen +20% Weapon Heat",
+    "ModificationDescription": "+17L/s Fuel Regen +20% Weapon Heat",
     "TooltipText": "Increase Fuel Regeneration Rate but also increase Weapon Heat"
   },
   "R_Attachment_F_Radars": {
@@ -131,7 +131,7 @@
   },
   "R_Attachment_FA_FuelGenerator": {
     "DisplayName": "Advanced Fuel Generator",
-    "ModificationDescription": "+15L/s Fuel Regen",
+    "ModificationDescription": "+12L/s Fuel Regen",
     "TooltipText": "Increase Fuel Regeneration Rate"
   },
   "R_Attachment_FA_Radars": {
@@ -276,8 +276,8 @@
   },
   "R_Attachment_S_ReinforcedArmor": {
     "DisplayName": "Interlaced Plating",
-    "ModificationDescription": "+100 Max Health -30/s Repair Rate ",
-    "TooltipText": "Increase max health but decreases repair rate"
+    "ModificationDescription": "+65 Max Health -15/s Repair Rate ",
+    "TooltipText": "Increase max health but decrease repair rate"
   },
   "R_Attachment_S_Thrusters": {
     "DisplayName": "Vented Heatsinks",

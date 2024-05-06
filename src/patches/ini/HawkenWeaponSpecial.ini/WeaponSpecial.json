@@ -109,8 +109,8 @@
     "ZoomedRate": "300"
   },
   "Robots.R_Proj_Shrapnel_Rocket": {
-    "SpeedDefault": "7000.0",
-    "MaxSpeedDefault": "7000.0",
+    "SpeedDefault": "10500.0",
+    "MaxSpeedDefault": "10500.0",
     "DamageDefault": "20",
     "DamageRadiusDefault": "700.0"
   }

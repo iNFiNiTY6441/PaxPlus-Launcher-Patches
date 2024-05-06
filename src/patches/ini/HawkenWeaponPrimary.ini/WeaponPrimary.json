@@ -21,8 +21,7 @@
 		"MaxSpeedDefault": "+02000.000000",
 		"SpeedDefault": "+02000.000000"
 	},
-	"Robots.R_Weap_Machine":
-	{
+	"Robots.R_Weap_Machine": {
 		"EffectiveRangeForUI": "45",
 		"AccuracyForUI": "50",
 		"InstantHitDamageDefault": "14.52",
@@ -32,7 +31,7 @@
 		"WeapAimHelpDist": "80",
 		"SpreadDefault": "0.078",
 		"SpreadLow": "0.078",
-		"SpreadHigh": "0.078",
+		"SpreadHigh": "0.225",
 		"WarmupTime": "0.5"
 	},
 	"Robots.R_Weap_Shotgun":
@@ -109,7 +108,7 @@
 		"WeaponRangeDefault": "50000",
 		"WarmupTime": "1.00",
 		"SpreadLow": "0.025",
-		"SpreadHigh": "0.025",
+		"SpreadHigh": "0.080",
 		"SpreadInc": "0.005"
 	},
 	"Robots.R_Weap_Repeater":
