@@ -1,5 +1,7 @@
 //Apply self heal effect to Technician while tethered.
 //Caps repair at maximum health value.
+//Check for if targeted pawn is on the same team, heal if is, damage if not
+//Damage Beam at most reduces health to 1
 
 //Ignoring "bad" signature: 3929117324
 //Skipping 4 bytes in the headers: 1
@@ -13,7 +15,13 @@ OBJECT = R_Weap_RepairTorch.UpdateBeamEffects : AUTO
 /*(0x0022/0x0016)*/ 	07 [@label_0x0047] 81 1B <CanRepair> 1A 00 <.I> 01 <@TouchingPawns> 16 16 
 /*(0x0044/0x0030)*/ 		06 [@label_0x03BC] 
 /*(0x0047/0x0033)*/ 	[#label_0x0047]
-/*(0x0047/0x0033)*/ 	07 [@label_0x00D9] 2D 01 <@bDamageNotRepair> 
+
+/*(0x0047/0x0033)*/ 	07 [@label_0x00D9] 9B 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.GetTeamNum.ReturnValue> 00 ( 1B <GetTeamNum> 16 ) 38 3A 19 01 <Engine.Actor.Instigator> [@] <Engine.Pawn.GetTeamNum.ReturnValue> 00 ( 1B <GetTeamNum> 16 ) 16
+						//Check target team
+
+						0F 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) F5 AF 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 01 <@DamagePerSecond> 16 16 1E <%f 1.0> 16
+						//Limit beam damage to reducing to 1hp
+
 /*(0x0054/0x003C)*/ 		19 1A 00 <.I> 01 <@BeamComp> [@] <NullRef> 00 ( 1C <Engine.ParticleSystemComponent.SetColorParameter> 21 <Color> 1C <Core.Object.MakeColor> 24 FF 24 28 24 28 24 FF 16 16 ) 
 /*(0x0098/0x006C)*/ 		B9 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 01 <@DamagePerSecond> 16 16 
 				B8 19 01 <Engine.Actor.Instigator> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 1E <%f 10> 16 16

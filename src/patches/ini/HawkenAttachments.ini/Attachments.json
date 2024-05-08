@@ -36,7 +36,7 @@
     "Value[0]": "2"
   },
   "Robots.R_Attachment_F_FuelGenerator": {
-    "Value[0]": "3"
+    "Value[0]": "1.7"
   },
   "Robots.R_Attachment_F_Radars": {
     "Value[0]": "2000.0"
@@ -51,7 +51,7 @@
     "Value[0]": "1"
   },
   "Robots.R_Attachment_FA_FuelGenerator": {
-    "Value[0]": "0.15"
+    "Value[0]": "1.2"
   },
   "Robots.R_Attachment_FA_Radars": {
     "Value[0]": "1000.0"
@@ -148,7 +148,7 @@
     "Value[1]": "-0.03"
   },
   "Robots.R_Attachment_S_ReinforcedArmor": {
-    "Value[0]": "100"
+    "Value[0]": "65"
   },
   "Robots.R_Attachment_S_Thrusters": {
     "Value[0]": "55"

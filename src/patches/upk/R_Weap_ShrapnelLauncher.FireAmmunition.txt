@@ -9,27 +9,21 @@ OBJECT = R_Weap_ShrapnelLauncher.FireAmmunition : AUTO
 
 07 [@label0x000C] 9A 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <R_Pawn.MechSubType> 00 ( 01 <R_Pawn.MechSubType> ) 1D <%i 2> 16
 //Raider/Marauder
-/*(0x0000/0x0000)*/ 1B <FireShrapnel> 16 
-/*(0x000A/0x000A)*/ 1B <PlayFiringSound> 16 
+
 /*(0x0014/0x0014)*/ 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f 11.7> 16 ) 
+[#label0x000C]
+
+07 [@label0x000F]  9A 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <R_Pawn.MechSubType> 00 ( 01 <R_Pawn.MechSubType> ) 1D <%i 10> 16
+//Incinerator
+/*(0x0014/0x0014)*/ 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f -4.3> 16 ) 
+[#label0x000F]
+
+/*(0x0000/0x0000)*/ 1B <FireShrapnel> 16 
+/*(0x000A/0x000A)*/ 1B <PlayFiringSound> 16
 /*(0x0045/0x0035)*/ 1B <PlayFireAnimation> 4A 16 
 /*(0x0050/0x0040)*/ 07 [@label_0x0088] 77 01 <Engine.Actor.Instigator> 2A 16 
 /*(0x005F/0x004B)*/ 	19 01 <Engine.Actor.Instigator> [@] <NullRef> 00 ( 1B <IncrementFlashCount> 17 01 <Engine.Weapon.CurrentFireMode> 16 ) 
 /*(0x0088/0x0068)*/ [#label_0x0088]
 /*(0x0088/0x0068)*/ 04 0B 
-/*(0x008A/0x006A)*/ 53 
-[#label0x000C]
-
-07 [@label0x000F]  9A 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <R_Pawn.MechSubType> 00 ( 01 <R_Pawn.MechSubType> ) 1D <%i 10> 16
-//Incinerator
-/*(0x0000/0x0000)*/ 1B <FireShrapnel> 16 
-/*(0x000A/0x000A)*/ 1B <PlayFiringSound> 16 
-/*(0x0014/0x0014)*/ 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f -4.3> 16 ) 
-/*(0x0045/0x0035)*/ 1B <PlayFireAnimation> 4A 16 
-/*(0x0050/0x0040)*/ 07 [@label_0x0099] 77 01 <Engine.Actor.Instigator> 2A 16 
-/*(0x005F/0x004B)*/ 	19 01 <Engine.Actor.Instigator> [@] <NullRef> 00 ( 1B <IncrementFlashCount> 17 01 <Engine.Weapon.CurrentFireMode> 16 ) 
-/*(0x0088/0x0068)*/ [#label_0x0099]
-/*(0x0088/0x0068)*/ 04 0B 
 /*(0x008A/0x006A)*/ 53
-[#label0x000F]
 04 0B
