@@ -17,14 +17,20 @@ OBJECT = R_Weap_RepairTorch.UpdateBeamEffects : AUTO
 /*(0x0047/0x0033)*/ 	[#label_0x0047]
 
 /*(0x0047/0x0033)*/ 	07 [@label_0x00D9] 9B 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.GetTeamNum.ReturnValue> 00 ( 1B <GetTeamNum> 16 ) 38 3A 19 01 <Engine.Actor.Instigator> [@] <Engine.Pawn.GetTeamNum.ReturnValue> 00 ( 1B <GetTeamNum> 16 ) 16
-						//Check target team
+			//Check target team
 
-						0F 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) F5 AF 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 01 <@DamagePerSecond> 16 16 1E <%f 1.0> 16
-						//Limit beam damage to reducing to 1hp
+				07 [@label_0x00D7] 97 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) 1E <%f 1.0> 16
+				//Check if current HP is >=1
+
+				0F 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) F5 AF 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 01 <@DamagePerSecond> 16 16 1E <%f 1.0> 16
+				//Limit beam damage to reducing to 1hp
 
 /*(0x0054/0x003C)*/ 		19 1A 00 <.I> 01 <@BeamComp> [@] <NullRef> 00 ( 1C <Engine.ParticleSystemComponent.SetColorParameter> 21 <Color> 1C <Core.Object.MakeColor> 24 FF 24 28 24 28 24 FF 16 16 ) 
 /*(0x0098/0x006C)*/ 		B9 19 1A 00 <.I> 01 <@TouchingPawns> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 01 <@DamagePerSecond> 16 16 
 				B8 19 01 <Engine.Actor.Instigator> [@] <Engine.Pawn.Health> 00 ( 01 <Engine.Pawn.Health> ) AB 00 <.DeltaTime> 1E <%f 10> 16 16
+					
+				[#label_0x00D7]				
+
 /*(0x00D6/0x0092)*/ 		06 [@label_0x015B] 
 /*(0x00D9/0x0095)*/ 	[#label_0x00D9]
 /*(0x00D9/0x0095)*/ 	19 1A 00 <.I> 01 <@BeamComp> [@] <NullRef> 00 ( 1C <Engine.ParticleSystemComponent.SetColorParameter> 21 <Color> 1C <Core.Object.MakeColor> 24 00 24 FF 24 9B 24 FF 16 16 ) 
