@@ -221,7 +221,7 @@
   },
   "R_Attachment_S_ArmorPlating": {
     "DisplayName": "Armor Plating",
-    "ModificationDescription": "+75 Max Health -6% Weapon Damage",
+    "ModificationDescription": "+50 Max Health -6% Weapon Damage",
     "TooltipText": "Increase max health but decrease all weapon damage"
   },
   "R_Attachment_S_ArmorSystems": {
@@ -256,7 +256,7 @@
   },
   "R_Attachment_S_HeavyArmor": {
     "DisplayName": "Heavy Armor",
-    "ModificationDescription": "+75 Max Health -4.4m/s Boost Speed",
+    "ModificationDescription": "+50 Max Health -4.4m/s Boost Speed",
     "TooltipText": "Increase max health but decrease boost speed"
   },
   "R_Attachment_S_HeavyArtillery": {

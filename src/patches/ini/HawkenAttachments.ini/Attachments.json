@@ -105,7 +105,7 @@
     "Value[0]": "0.015"
   },
   "Robots.R_Attachment_S_ArmorPlating": {
-    "Value[0]": "75",
+    "Value[0]": "50",
     "Value[1]": "-0.06"
   },
   "Robots.R_Attachment_S_ArmorSystems": {
@@ -131,7 +131,7 @@
     "Value[0]": "-0.05"
   },
   "Robots.R_Attachment_S_HeavyArmor": {
-    "Value[0]": "75",
+    "Value[0]": "50",
     "Value[1]": "-220"
   },
   "Robots.R_Attachment_S_HeavyArtillery": {
