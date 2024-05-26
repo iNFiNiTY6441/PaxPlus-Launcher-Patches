@@ -10,7 +10,13 @@ OBJECT = R_Item_Teleporter.OnActivate : AUTO
 
 //Change SpawnEnergy float to alter energy value. 1 energy = 4 armor.
 
-12 20 <Class.R_Util> [@] <R_Util.SpawnEnergy.ReturnValue> 00 ( 1B <SpawnEnergy> 1E <%f 40> 12 20 <Class.R_Util> [@] <R_Util.CreateVect.ReturnValue> 00 ( 1B <CreateVect> 35 <Core.Object.Vector.X> <Core.Object.Vector> 00 00 01 <Engine.Actor.Location> 35 <Core.Object.Vector.Y> <Core.Object.Vector> 00 00 01 <Engine.Actor.Location> AE 35 <Core.Object.Vector.Z> <Core.Object.Vector> 00 00 01 <Engine.Actor.Location> 38 3F 2C 64 16 16 ) 17 16 ) 
+12 20 <Class.R_Util> [@] <R_Util.SpawnEnergy.ReturnValue> 00 ( 1B <SpawnEnergy> 1E <%f 40> 12 20 <Class.R_Util> [@] <R_Util.CreateVect.ReturnValue> 00 ( 1B <CreateVect> 
+
+35 <Core.Object.Vector.X> <Core.Object.Vector> 00 00 19 00 <.Activator> [@] <Engine.Actor.Location> 00 ( 01 <Engine.Actor.Location> )
+35 <Core.Object.Vector.Y> <Core.Object.Vector> 00 00 19 00 <.Activator> [@] <Engine.Actor.Location> 00 ( 01 <Engine.Actor.Location> )
+AE 35 <Core.Object.Vector.Z> <Core.Object.Vector> 00 00 19 00 <.Activator> [@] <Engine.Actor.Location> 00 ( 01 <Engine.Actor.Location> )
+
+38 3F 2C 64 16 16 ) 17 16 ) 
 
 
 /*(0x00C0/0x008C)*/ 1C <R_Item_Base.OnActivate> 00 <.Activator> 00 <.ChargeTime> 16 
