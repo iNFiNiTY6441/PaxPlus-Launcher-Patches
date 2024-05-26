@@ -16,8 +16,7 @@ OBJECT = R_Item_Teleporter.OnActivate : AUTO
 35 <Core.Object.Vector.Y> <Core.Object.Vector> 00 00 19 00 <.Activator> [@] <Engine.Actor.Location> 00 ( 01 <Engine.Actor.Location> )
 AE 35 <Core.Object.Vector.Z> <Core.Object.Vector> 00 00 19 00 <.Activator> [@] <Engine.Actor.Location> 00 ( 01 <Engine.Actor.Location> )
 
-38 3F 2C 64 16 16 ) 17 16 ) 
-
+38 3F 2C 64 16 16 ) 17 16 )
 
 /*(0x00C0/0x008C)*/ 1C <R_Item_Base.OnActivate> 00 <.Activator> 00 <.ChargeTime> 16 
 /*(0x00DC/0x009C)*/ 04 0B 

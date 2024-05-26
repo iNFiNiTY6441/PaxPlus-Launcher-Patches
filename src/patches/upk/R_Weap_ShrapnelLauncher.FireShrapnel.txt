@@ -12,11 +12,11 @@ OBJECT = R_Weap_ShrapnelLauncher.FireShrapnel : AUTO
 /*(0x0000/0x0000)*/ 0F 01 <@NumProjPerShot> 1D <%i 6>			
 /*(0x0000/0x0000)*/ 0F 01 <@NumProjFired> 25 
 /*(0x000B/0x0007)*/ [#label_0x00BB]
-/*(0x000B/0x0007)*/ 07 [@label_0x003C] 96 01 <@NumProjFired> 01 <@NumProjPerShot> 16 
+/*(0x000B/0x0007)*/ 07 [@label_0x003B] 96 01 <@NumProjFired> 01 <@NumProjPerShot> 16 
 /*(0x0022/0x0016)*/ 	1B <ProjectileFire> 16 
 /*(0x002C/0x0020)*/ 	A5 01 <@NumProjFired> 16 
 /*(0x0037/0x0027)*/ 	06 [@label_0x00BB] 
-/*(0x003A/0x002A)*/ [#label_0x003C]
+/*(0x003A/0x002A)*/ [#label_0x003B]
 /*(0x003A/0x002A)*/ 04 0B 
 /*(0x003C/0x002C)*/ 53 
 [#label0x000B]
