@@ -1,15 +1,15 @@
 {
-    "G2-Assault": {
+    "Raptor": {
 
         "initial": {
 
-            "MechType": "1",
-            "MechSubType": "8",
-            "PrimaryWeapon0": "0",
+            "MechType": "0",
+            "MechSubType": "5",
+            "PrimaryWeapon0": "7",
             "PrimaryWeapon1": "0",
-            "OffensiveItem": "1",
+            "OffensiveItem": "-1",
             "DefensiveItem": "-1",
-            "FunctionalItem": "-1",
+            "FunctionalItem": "1",
             "OffensiveAttachment": "-1",
             "DefensiveAttachment": "-1",
             "FunctionalAttachment": "-1",
@@ -23,8 +23,8 @@
             "AccentHue": "80.000000",
             "AccentSaturation": "0.500000",
             "AccentValue": "0.250000",
-            "UpperPart": "3",
-            "MidPart": "3",
+            "UpperPart": "4",
+            "MidPart": "4",
             "LowerPart": "3",
             "ArmPart": "3",
             "BoosterPart": "0",
@@ -38,27 +38,25 @@
 
         "persist": {
 
-            "MechType": "1",
-            "MechSubType": "8",
-            "PrimaryWeapon0": "0",
-            "PrimaryWeapon1": "0",
+            "MechType": "0",
+            "MechSubType": "5",
             "o_increaseWeaponsDamage":"0",
-            "o_primaryWeaponFireRate":"80",
+            "o_primaryWeaponFireRate":"-30",
             "o_shootingRadarSignatureDistance":"0",
             "o_itemDamage":"0",
-            "o_weaponHeatReduction":"81",
-            "o_specialWeaponFireRate":"53",
+            "o_weaponHeatReduction":"-35",
+            "o_specialWeaponFireRate":"-9",
             "o_damageReductionItems":"0",
-            "o_overheatRecoveryTime":"1",
-            "o_increaseTraceDamage":"-87",
-            "o_increaseExplosionDamage":"-87",
+            "o_overheatRecoveryTime":"0",
+            "o_increaseTraceDamage":"22",
+            "o_increaseExplosionDamage":"0",
             "o_increaseAllDamage":"0",
             "d_healStartupTime":"0",
             "d_dodgeSpeed":"0",
             "d_damageReductionWeapons":"0",
             "d_repairRate":"0",
-            "d_radarDistance":"-42",
-            "d_health":"3",
+            "d_radarDistance":"-34",
+            "d_health":"0",
             "d_weaponHeatReduction":"0",
             "d_runSpeed":"0",
             "d_traceDamageReduction":"0",
@@ -67,14 +65,14 @@
             "m_runSpeed":"4",
             "m_accelerationRate":"0",
             "m_energyCapacity":"0",
-            "m_thrusterRegenRate":"-15",
-            "m_boostForwardSpeed":"-3",
-            "m_maxThrusterEnergy":"-16",
+            "m_thrusterRegenRate":"-10",
+            "m_boostForwardSpeed":"40",
+            "m_maxThrusterEnergy":"-17",
             "m_reduceDodgeCooldown":"0",
-            "m_health":"2",
+            "m_health":"-2",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"-40"
+            "m_increaseMovement":"52"
 
         }
     }

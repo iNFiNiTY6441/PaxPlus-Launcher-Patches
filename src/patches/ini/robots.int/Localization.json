@@ -101,7 +101,7 @@
   },
   "R_Attachment_F_FuelCanisters": {
     "DisplayName": "Nanocavorite Frame",
-    "ModificationDescription": "+20L Max Fuel -75 Max Health",
+    "ModificationDescription": "+20L Max Fuel -50 Max Health",
     "TooltipText": "Increase Maximum Fuel Capacity but Decrease Maximum Health"
   },
   "R_Attachment_F_FuelGenerator": {
@@ -715,8 +715,8 @@
     "TooltipText": "A large blast radius mine with a laser tripwire."
   },
   "R_Item_Teleporter": {
-    "DisplayName": "TELEPORTER",
-    "TooltipText": "Portal Teleporter"
+    "DisplayName": "REPAIR CHARGE",
+    "TooltipText": "A Repair Charge can rapidly repair the armor of any mech around it. This can allow very rapid repairs when used in conjuction with a repair drone."
   },
   "R_Item_Turret_Homing": {
     "DisplayName": "HM TURRET",

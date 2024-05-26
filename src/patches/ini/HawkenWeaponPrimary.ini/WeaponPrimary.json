@@ -27,7 +27,7 @@
 		"InstantHitDamageDefault": "14.52",
 		"RefireRateDefault": "+0.12",
 		"WeaponRangeDefault": "50000",
-		"HeatPerShot": "0.7875",
+		"HeatPerShot": "0.875",
 		"WeapAimHelpDist": "80",
 		"SpreadDefault": "0.078",
 		"SpreadLow": "0.078",
