@@ -6,7 +6,7 @@
         "MechType": "0",
         "MechSubType": "5",
         "PrimaryWeapon0": "6",
-        "PrimaryWeapon1": "6",
+        "PrimaryWeapon1": "9",
         "OffensiveItem": "0",
         "DefensiveItem": "-1",
         "FunctionalItem": "-1",
@@ -38,7 +38,9 @@
       },
 
         "persist": {
-            "MechSubType": "5",
+          "MechSubType": "5",
+            "PrimaryWeapon0": "6",
+            "PrimaryWeapon1": "9",
             "o_increaseWeaponsDamage":"0",
             "o_primaryWeaponFireRate":"0",
             "o_shootingRadarSignatureDistance":"0",
@@ -48,7 +50,7 @@
             "o_damageReductionItems":"0",
             "o_overheatRecoveryTime":"0",
             "o_increaseTraceDamage":"-10",
-            "o_increaseExplosionDamage":"116",
+            "o_increaseExplosionDamage":"0",
             "o_increaseAllDamage":"0",
             "d_healStartupTime":"0",
             "d_dodgeSpeed":"0",
@@ -71,7 +73,7 @@
             "m_health":"0",
             "m_radarSignatureDistance":"0",
             "m_radarDistance":"0",
-            "m_increaseMovement":"-97"
+            "m_increaseMovement":"19"
         }
     }
 
