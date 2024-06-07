@@ -1,10 +1,10 @@
 {
   "Robots.R_ProximityMine": {
     "DamageDefault": "65.0",
-    "DamageRadiusDefault": "900.0",
-    "ProximityDistance": "450.0",
-    "ArmTime": "1.0",
-    "ExplodeTime": "0.2"
+    "DamageRadiusDefault": "800.0",
+    "ProximityDistance": "380.0",
+    "ArmTime": "0.0",
+    "ExplodeTime": "0.28"
   },
   "Robots.R_LaserMine": {
     "DamageDefault": "65.0",
@@ -45,11 +45,11 @@
     "ExplosionCameraShakeRadius": "1400"
   },
   "Robots.R_Proj_StickyBomb": {
-    "SpeedDefault": "2500.0",
-    "MaxSpeedDefault": "75000.0",
+    "SpeedDefault": "7500.0",
+    "MaxSpeedDefault": "7500.0",
     "AccelRateDefault": "0",
     "DamageDefault": "60.0",
-    "DamageRadiusDefault": "900.0",
+    "DamageRadiusDefault": "800.0",
     "ExplosionCameraShakeRadius": "2200"
   },
   "Robots.R_Proj_LaserMine": {
