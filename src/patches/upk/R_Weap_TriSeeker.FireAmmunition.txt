@@ -19,7 +19,7 @@ OBJECT = R_Weap_TriSeeker.FireAmmunition : AUTO
 /*(0x0013/0x000B)*/ 	0F 01 <Engine.Projectile.MaxSpeed> 1E <%f 8500>
 /*(0x0039/0x0021)*/ 	0F 01 <Engine.Projectile.Damage> 1E <%f 30.25> //27.5 * 10% = 30.25, imitates damage debuff
 /*(0x004C/0x002C)*/ 	0F 01 <Engine.Projectile.DamageRadius> 1E <%f 550>
-/*(0x007B/0x0063)*/ 	19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 01 <%f 2.7> 16 ) 
+/*(0x007B/0x0063)*/ 	19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f 3.75> 16 ) 
 /*(0x0015/0x0011)*/		1B <ProjectileFire> 16 
 /*(0x0070/0x0058)*/ 	1B <PlayFireAnimation> 4A 16 
 /*(0x00E4/0x00AC)*/		1B <PlayFiringSound> 16 
