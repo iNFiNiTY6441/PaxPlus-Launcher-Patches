@@ -1,3 +1,4 @@
+//On Technician, fires modified SAARE bullets.
 //Disable lock-on calls for Rev-GL
 
 //Ignoring "bad" signature: 3929117324
@@ -6,7 +7,28 @@
 UPK_FILE = robots.u
 OBJECT = R_Weap_TriSeeker.FireAmmunition : AUTO
 [REPLACEMENT_CODE]
-/*(0x0000/0x0000)*/ 0F 01 <@NumProjFired> 25 
+
+//9A 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <R_Pawn.MechType> 00 ( 01 <R_Pawn.MechType> ) 1D <%i 0> 16
+
+//Subtype 4 (Technician) fires Saare bullets
+07 [@label0x000B] 9A 19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <R_Pawn.MechSubType> 00 ( 01 <R_Pawn.MechSubType> ) 1D <%i 4> 16
+/*(0x0000/0x0000)*/		0F 10 25 01 <Engine.Weapon.Spread> 1E <%f 0>
+/*(0x004C/0x002C)*/ 	0F 01 <Engine.Weapon.FireOffset> 23 <%f -375> <%f 115> <%f -50>
+/*(0x000B/0x0007)*/ 	0F 10 25 01 <Engine.Weapon.WeaponProjectiles> 20 <Class.R_Proj_Shrapnel_Rocket>
+/*(0x0000/0x0000)*/ 	0F 01 <Engine.Projectile.Speed> 1E <%f 8500>
+/*(0x0013/0x000B)*/ 	0F 01 <Engine.Projectile.MaxSpeed> 1E <%f 8500>
+/*(0x0039/0x0021)*/ 	0F 01 <Engine.Projectile.Damage> 1E <%f 30.25> //27.5 * 10% = 30.25, imitates damage debuff
+/*(0x004C/0x002C)*/ 	0F 01 <Engine.Projectile.DamageRadius> 1E <%f 550>
+/*(0x007B/0x0063)*/ 	19 2E <Class.R_Pawn> 01 <Engine.Actor.Owner> [@] <NullRef> 00 ( 1B <IncreaseHeat> 1E <%f 3.75> 16 ) 
+/*(0x0015/0x0011)*/		1B <ProjectileFire> 16 
+/*(0x0070/0x0058)*/ 	1B <PlayFireAnimation> 4A 16 
+/*(0x00E4/0x00AC)*/		1B <PlayFiringSound> 16 
+/*(0x00EE/0x00B6)*/ 04 0B 
+/*(0x00F0/0x00B8)*/ 53 
+
+[#label0x000B]
+
+/*(0x0000/0x0000)*/ 0F 01 <@NumProjFired> 25
 /*(0x000B/0x0007)*/ //1B <AcquireLockonTarget> 16 
 /*(0x0015/0x0011)*/ 1B <ProjectileFire> 16 
 /*(0x001F/0x001B)*/ 07 [@label_0x0045] 97 01 <@NumProjPerShot> 26 16 
